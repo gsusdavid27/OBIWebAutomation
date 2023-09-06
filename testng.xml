@@ -1,0 +1,10 @@
+<suite name="MyTestSuite">
+    <listeners>
+        <listener class-name="org.example.utils.CustomTestListener"/>
+    </listeners>
+    <test name="MyTestCase">
+        <classes>
+            <class name="org.example.pages.BasePage"/>
+        </classes>
+    </test>
+</suite>
