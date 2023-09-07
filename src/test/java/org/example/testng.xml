@@ -4,7 +4,8 @@
         <listener class-name="org.example.utils.CustomTestListener"/>
     </listeners>
     <parameter name="browser" value="firefox" />
-
+    <parameter name="user" value="standard_user" />
+    <parameter name="password" value="secret_sauce" />
     <test name="PurchaseTest">
         <classes>
             <class name="org.example.tests.PurchaseTest" />

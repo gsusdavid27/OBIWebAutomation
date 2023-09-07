@@ -27,7 +27,7 @@ public class InventoryPage extends BasePage{
     private WebElement aProductImage;
     @FindBy(css = "button.btn_primary")
     private  WebElement buttonAddToCart; //para cualquiera
-    
+
     public String getProductImageSRC(){
         return aProductImage.getAttribute("src");//Devuelve la referencia del recurso.
     }

@@ -5,7 +5,7 @@ import org.example.pages.HomePage;
 import org.example.pages.InventoryPage;
 import org.testng.annotations.*;
 
-public class BaseTest {
+public abstract class BaseTest {
     public MyDriver myDriver;
     private HomePage home;
     private InventoryPage inventoryPage;
@@ -17,12 +17,12 @@ public class BaseTest {
         home= new HomePage(myDriver.getDriver());
     }
 
-    @BeforeTest(alwaysRun = true)    //@Parameters
-    public void login(){
-        inventoryPage=home.login("standard_user", "secret_sauce");
+    @BeforeTest(alwaysRun = true)
+    @Parameters({ "user", "password" })
+    public void login(String user, String pass){
+        inventoryPage=home.login(user, pass);
     }
-
-
+    
     @AfterTest(alwaysRun = true)
     public void afterSuite(){
         home.dispose();
