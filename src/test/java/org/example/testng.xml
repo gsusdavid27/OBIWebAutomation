@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PurchaseTestSuite">
+    <listeners>
+        <listener class-name="org.example.utils.CustomTestListener"/>
+    </listeners>
+    <parameter name="browser" value="firefox" />
+    <!-- Puedes definir más parámetros aquí si es necesario -->
+    <test name="PurchaseTest">
+        <classes>
+         <class name="org.example.tests.PurchaseTest" />
+          <!-- Puedes agregar más clases de prueba aquí si es necesario -->
+        </classes>
+    </test>
+
+<!-- Puedes definir más tests aquí si es necesario -->
+
+</suite>

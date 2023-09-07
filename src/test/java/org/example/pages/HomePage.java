@@ -28,6 +28,7 @@ public class HomePage extends BasePage{
         this.username.sendKeys(username);
         this.password.sendKeys(password);
         getWait().until(ExpectedConditions.elementToBeClickable(login_button));
+        login_button.click();
         return new InventoryPage(getDriver());
     }
 }
