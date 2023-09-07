@@ -1,17 +1,25 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="PurchaseTestSuite">
+<suite name="MyTestSuite">
     <listeners>
         <listener class-name="org.example.utils.CustomTestListener"/>
     </listeners>
     <parameter name="browser" value="firefox" />
-    <!-- Puedes definir más parámetros aquí si es necesario -->
+
     <test name="PurchaseTest">
         <classes>
-         <class name="org.example.tests.PurchaseTest" />
-          <!-- Puedes agregar más clases de prueba aquí si es necesario -->
+            <class name="org.example.tests.PurchaseTest" />
         </classes>
     </test>
 
-<!-- Puedes definir más tests aquí si es necesario -->
+    <test name="DeleteTest">
+        <classes>
+            <class name="org.example.tests.DeleteTest" />
+        </classes>
+    </test>
 
+    <test name="LogoutTest">
+        <classes>
+            <class name="org.example.tests.LogoutTest" />
+        </classes>
+    </test>
 </suite>

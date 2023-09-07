@@ -2,27 +2,37 @@ package org.example.tests;
 
 import org.example.MyDriver;
 import org.example.pages.HomePage;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.Parameters;
+import org.example.pages.InventoryPage;
+import org.testng.annotations.*;
 
 public class BaseTest {
-    MyDriver myDriver;
+    public MyDriver myDriver;
     private HomePage home;
+    private InventoryPage inventoryPage;
 
-    @BeforeSuite(alwaysRun = true)
+    @BeforeTest(alwaysRun = true)
     @Parameters({"browser"})
     public void beforeSuite(String browser){
         myDriver= new MyDriver(browser);
         home= new HomePage(myDriver.getDriver());
     }
 
-    @AfterSuite(alwaysRun = true)
+    @BeforeTest(alwaysRun = true)    //@Parameters
+    public void login(){
+        inventoryPage=home.login("standard_user", "secret_sauce");
+    }
+
+
+    @AfterTest(alwaysRun = true)
     public void afterSuite(){
         home.dispose();
     }
 
     public HomePage getHomePage() {
         return home;
+    }
+
+    public InventoryPage getInventoryPage() {
+        return inventoryPage;
     }
 }

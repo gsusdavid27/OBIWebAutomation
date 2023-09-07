@@ -1,32 +1,32 @@
 package org.example.tests;
 
-import junit.framework.Assert;
 import org.example.pages.*;
+import org.example.tests.BaseTest;
+import org.testng.Assert;
 import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;
 
 public class PurchaseTest extends BaseTest {
+    private InventoryPage inventoryPage;
+    private ProductPage productPage;
+    private ShoppingCartPage shoppingCartPage;
 
     @Test
-    public void purchaseTest(){
-        SoftAssert softAssert = new SoftAssert();
+    public void selectProductTest() {
+        inventoryPage = getInventoryPage();
+        productPage = inventoryPage.details();
+        Assert.assertEquals(productPage.getProductImage(), inventoryPage.getProductImageSRC());
+    }
 
-        HomePage home = getHomePage();
-        InventoryPage inventoryPage = home.login("standard_user", "secret_sauce");
-        softAssert.assertEquals(inventoryPage.getPageTitle(), "Products");
+    @Test(dependsOnMethods = "selectProductTest")
+    public void addToCartTest() {
+        shoppingCartPage = productPage.goToShoppingCart();
+    }
 
-        ProductPage productPage = inventoryPage.details();
-        softAssert.assertEquals(productPage.getProductImage(), inventoryPage.getProductImageSRC());
-
-        ShoppingCartPage shoppingCartPage = productPage.goToShoppingCart();
+    @Test(dependsOnMethods = "addToCartTest")
+    public void checkoutTest() {
         CheckoutPrincipalPage checkout_01 = shoppingCartPage.checkout();
         CheckoutOverviewPage checkout_02 = checkout_01.provideData("Samuel", "Traslaviña", "123456");
         CheckoutCompletePage checkout_03 = checkout_02.finishProcess();
-
-        softAssert.assertEquals("Thank you for your order!", checkout_03.getConfirmationMessage());
-
-// Realiza una verificación suave, esto verifica todas las aserciones pero no lanza una excepción inmediatamente si alguna falla.
-        softAssert.assertAll();
+        Assert.assertEquals("Thank you for your order!", checkout_03.getConfirmationMessage());
     }
-
 }

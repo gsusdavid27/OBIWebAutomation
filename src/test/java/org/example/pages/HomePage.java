@@ -18,8 +18,8 @@ public class HomePage extends BasePage{
 
     @FindBy(css = "input#password")
     private WebElement password;
-    @FindBy(css="div.error-message-container")
-    private WebElement errorMessage;//para verificar que hizo logout.
+    @FindBy(css=".login_logo")
+    private WebElement title;//para verificar que hizo logout.
 
     @FindBy(css = "input#login-button")
     private  WebElement login_button;
@@ -30,5 +30,10 @@ public class HomePage extends BasePage{
         getWait().until(ExpectedConditions.elementToBeClickable(login_button));
         login_button.click();
         return new InventoryPage(getDriver());
+    }
+
+    public String getTitle(){
+        getWait().until(ExpectedConditions.visibilityOf(title));
+        return title.getText();
     }
 }

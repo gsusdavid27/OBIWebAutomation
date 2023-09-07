@@ -13,11 +13,13 @@ public abstract class BasePage {
     private WebDriver driver;
     private WebDriverWait wait;
     @FindBy(css = "a.shopping_cart_link")
-    private WebElement shoppingCart;//Para algunas páginas
+    public WebElement shoppingCart;//Para algunas páginas
 
     @FindBy(css="button#react-burger-menu-btn")
-    //a#logout_sidebar_link LOGOUT button
-    private WebElement burgerMenu;
+    public WebElement burgerMenu;
+
+    @FindBy(css="a#logout_sidebar_link")
+    public WebElement logOut;
 
     public BasePage(WebDriver driver){
         PageFactory.initElements(driver, this);
