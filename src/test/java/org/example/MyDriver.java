@@ -12,7 +12,7 @@ public class MyDriver {
                 driver=new FirefoxDriver();
                 break;
             case "chrome":
-                System.setProperty("webdriver.chrome.driver", "C:\\Users\\jesus.traslavina\\chromedriver_win32\\chromedriver.exe");
+                System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
                 driver = new ChromeDriver();
                 break;
             default:

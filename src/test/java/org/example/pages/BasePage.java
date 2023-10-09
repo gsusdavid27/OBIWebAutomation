@@ -12,6 +12,9 @@ import java.time.Duration;
 public abstract class BasePage {
     private WebDriver driver;
     private WebDriverWait wait;
+
+    //Elementos comunes
+    /*
     @FindBy(css = "a.shopping_cart_link")
     public WebElement shoppingCart;//Para algunas páginas
 
@@ -20,7 +23,7 @@ public abstract class BasePage {
 
     @FindBy(css="a#logout_sidebar_link")
     public WebElement logOut;
-
+*/
     public BasePage(WebDriver driver){
         PageFactory.initElements(driver, this);
         wait=new WebDriverWait(driver, Duration.ofSeconds(10));
@@ -31,16 +34,17 @@ public abstract class BasePage {
         return wait;
     }
 
+
     protected WebDriver getDriver(){
         return driver;
     }
-
+    /*
     public ShoppingCartPage goToShoppingCart(){
         getWait().until(ExpectedConditions.elementToBeClickable(shoppingCart));
         shoppingCart.click();
         return new ShoppingCartPage(getDriver());
     }
-
+*/
     public void dispose(){
         if(driver!= null){
             driver.quit();

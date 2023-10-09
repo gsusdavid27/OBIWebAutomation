@@ -3,24 +3,12 @@
     <listeners>
         <listener class-name="org.example.utils.CustomTestListener"/>
     </listeners>
-    <parameter name="browser" value="firefox" />
-    <parameter name="user" value="standard_user" />
-    <parameter name="password" value="secret_sauce" />
+    <parameter name="browser" value="chrome" />
+    <parameter name="user" value="hector.pina@xpo.com" />
+    <parameter name="password" value="2^^406fb8Uw4" />
     <test name="PurchaseTest">
         <classes>
-            <class name="org.example.tests.PurchaseTest" />
-        </classes>
-    </test>
-
-    <test name="DeleteTest">
-        <classes>
-            <class name="org.example.tests.DeleteTest" />
-        </classes>
-    </test>
-
-    <test name="LogoutTest">
-        <classes>
-            <class name="org.example.tests.LogoutTest" />
+            <class name="org.example.tests.FirstTest" />
         </classes>
     </test>
 </suite>
