@@ -37,7 +37,7 @@ public class MicrosoftSSOPage extends BasePage{
     }
 */
 
-    public void doSSO(String username, String password){
+    public AgreementListPage doSSO(String username, String password){
         getWait().until(ExpectedConditions.elementToBeClickable(userInput));
         userInput.sendKeys(username);
         submitButton.click();
@@ -46,6 +46,7 @@ public class MicrosoftSSOPage extends BasePage{
         submitButton.click();
         getWait().until(ExpectedConditions.elementToBeClickable(denyStay));
         denyStay.click();
+        return new AgreementListPage(getDriver());
 
     }
 /*

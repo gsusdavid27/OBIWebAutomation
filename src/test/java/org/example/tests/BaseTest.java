@@ -23,19 +23,13 @@ public abstract class BaseTest {
     @BeforeTest(alwaysRun = true)
     @Parameters({ "user", "password" })
     public void login(String user, String pass){
-        microsoftSSOPage = getSSOPage();
-        microsoftSSOPage.doSSO(user,pass);
+        agreementListPage= microsoftSSOPage.doSSO(user,pass);
     }
     
     @AfterTest(alwaysRun = true)
     public void afterSuite(){
         microsoftSSOPage.dispose();
     }
-
-    public MicrosoftSSOPage getSSOPage() {
-        return microsoftSSOPage;
-    }
-
 
     public AgreementListPage getAgreementListPage() {
         return new AgreementListPage(myDriver.getDriver());

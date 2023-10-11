@@ -4,9 +4,9 @@
         <listener class-name="org.example.utils.CustomTestListener"/>
     </listeners>
     <parameter name="browser" value="chrome" />
-    <parameter name="user" value="hector.pina@xpo.com" />
-    <parameter name="password" value="2^^406fb8Uw4" />
-    <test name="PurchaseTest">
+    <parameter name="user" value="jesus.traslavina@xpo.com" />
+    <parameter name="password" value="Trasla27" />
+    <test name="NewAgreementTest">
         <classes>
             <class name="org.example.tests.FirstTest" />
         </classes>
