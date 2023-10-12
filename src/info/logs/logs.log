@@ -1,0 +1,396 @@
+23:57:14.453 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+23:57:14.459 [main] INFO  org.example.InfoReporter - SetUp the Browser
+23:57:17.193 [main] INFO  org.example.InfoReporter - Staring MainTask - HomePage
+23:57:17.195 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+23:57:31.866 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+23:57:31.875 [main] INFO  org.example.InfoReporter - SetUp the Browser
+23:57:35.162 [main] INFO  org.example.InfoReporter - Staring MainTask - HomePage
+23:57:35.165 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+23:57:53.171 [main] INFO  org.example.InfoReporter - Test: login - [Starting...]
+23:57:53.172 [main] WARN  org.example.InfoReporter - Test: login - [SKIPPED]
+23:57:53.173 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+23:57:53.173 [main] WARN  org.example.InfoReporter - Test: accessToAgreementListTest - [SKIPPED]
+23:57:53.177 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+23:57:53.177 [main] WARN  org.example.InfoReporter - Test: changeToCreateAgreementTest - [SKIPPED]
+23:57:53.178 [main] INFO  org.example.InfoReporter - Test: fillCostumerMadCodeTes - [Starting...]
+23:57:53.178 [main] WARN  org.example.InfoReporter - Test: fillCostumerMadCodeTes - [SKIPPED]
+23:57:53.179 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+23:57:53.180 [main] WARN  org.example.InfoReporter - Test: fillAllFields - [SKIPPED]
+00:00:00.303 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+00:00:00.309 [main] INFO  org.example.InfoReporter - SetUp the Browser
+00:00:03.793 [main] INFO  org.example.InfoReporter - Staring MainTask - HomePage
+00:00:03.796 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+00:00:22.580 [main] INFO  org.example.InfoReporter - Test: login - [Starting...]
+00:00:22.580 [main] WARN  org.example.InfoReporter - Test: login - [SKIPPED]
+00:00:22.582 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+00:00:22.582 [main] WARN  org.example.InfoReporter - Test: accessToAgreementListTest - [SKIPPED]
+00:00:22.585 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+00:00:22.586 [main] WARN  org.example.InfoReporter - Test: changeToCreateAgreementTest - [SKIPPED]
+00:00:22.587 [main] INFO  org.example.InfoReporter - Test: fillCostumerMadCodeTes - [Starting...]
+00:00:22.587 [main] WARN  org.example.InfoReporter - Test: fillCostumerMadCodeTes - [SKIPPED]
+00:00:22.588 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+00:00:22.588 [main] WARN  org.example.InfoReporter - Test: fillAllFields - [SKIPPED]
+00:02:09.449 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+00:02:09.454 [main] INFO  org.example.InfoReporter - SetUp the Browser
+00:02:12.386 [main] INFO  org.example.InfoReporter - Staring MainTask - HomePage
+00:02:12.387 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+00:02:31.514 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+00:02:31.515 [main] WARN  org.example.InfoReporter - Test: accessToAgreementListTest - [SKIPPED]
+00:02:31.515 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [FAIL]
+00:02:31.515 [main] INFO  org.example.InfoReporter - Taking a screenshot: 
+00:07:17.274 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+00:07:17.279 [main] INFO  org.example.InfoReporter - SetUp the Browser
+00:07:20.172 [main] INFO  org.example.InfoReporter - Staring MainTask - HomePage
+00:07:20.173 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+00:07:38.280 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+00:07:38.280 [main] WARN  org.example.InfoReporter - Test: accessToAgreementListTest - [SKIPPED]
+00:07:38.280 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [FAIL]
+00:07:38.281 [main] INFO  org.example.InfoReporter - Taking a screenshot: 
+00:10:59.884 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+00:10:59.889 [main] INFO  org.example.InfoReporter - SetUp the Browser
+00:11:02.821 [main] INFO  org.example.InfoReporter - Staring MainTask - HomePage
+00:11:02.822 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+00:11:22.159 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+00:11:22.159 [main] WARN  org.example.InfoReporter - Test: accessToAgreementListTest - [SKIPPED]
+00:11:22.159 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [FAIL]
+00:11:22.160 [main] INFO  org.example.InfoReporter - Taking a screenshot: 
+00:15:37.464 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+00:15:37.469 [main] INFO  org.example.InfoReporter - SetUp the Browser
+00:15:40.218 [main] INFO  org.example.InfoReporter - Staring MainTask - HomePage
+00:15:40.220 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+00:16:00.280 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+00:16:00.280 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [FAIL]
+00:16:00.280 [main] INFO  org.example.InfoReporter - Taking a screenshot: 
+00:16:52.889 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+00:16:52.900 [main] INFO  org.example.InfoReporter - SetUp the Browser
+00:16:56.668 [main] INFO  org.example.InfoReporter - Staring MainTask - HomePage
+00:16:56.670 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+00:17:16.259 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+00:17:16.260 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [FAIL]
+00:17:16.260 [main] INFO  org.example.InfoReporter - Taking a screenshot: 
+00:30:36.144 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+00:30:36.150 [main] INFO  org.example.InfoReporter - SetUp the Browser
+00:30:38.908 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+00:30:38.909 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+00:30:57.613 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+00:30:57.614 [main] WARN  org.example.InfoReporter - Test: accessToAgreementListTest - [SKIPPED]
+00:30:57.614 [main] INFO  org.example.InfoReporter - Taking a screenshot: 
+00:30:57.614 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [FAIL]
+00:30:57.614 [main] INFO  org.example.InfoReporter - Taking a screenshot: 
+00:40:22.805 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+00:40:22.810 [main] INFO  org.example.InfoReporter - SetUp the Browser
+00:40:25.577 [main] INFO  org.example.InfoReporter - Staring MainTask - HomePage
+00:40:25.579 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+00:40:27.931 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+00:40:27.931 [main] WARN  org.example.InfoReporter - Test: accessToAgreementListTest - [SKIPPED]
+00:40:27.931 [main] INFO  org.example.InfoReporter - Taking a screenshot: 
+00:40:27.931 [main] INFO  org.example.InfoReporter - Driver doesn't support snapshots.
+00:40:27.935 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+00:40:27.935 [main] WARN  org.example.InfoReporter - Test: changeToCreateAgreementTest - [SKIPPED]
+00:40:27.935 [main] INFO  org.example.InfoReporter - Taking a screenshot: 
+00:40:27.935 [main] INFO  org.example.InfoReporter - Driver doesn't support snapshots.
+00:40:27.937 [main] INFO  org.example.InfoReporter - Test: fillCostumerMadCodeTes - [Starting...]
+00:40:27.937 [main] WARN  org.example.InfoReporter - Test: fillCostumerMadCodeTes - [SKIPPED]
+00:40:27.937 [main] INFO  org.example.InfoReporter - Taking a screenshot: 
+00:40:27.938 [main] INFO  org.example.InfoReporter - Driver doesn't support snapshots.
+00:40:27.939 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+00:40:27.939 [main] WARN  org.example.InfoReporter - Test: fillAllFields - [SKIPPED]
+00:40:27.939 [main] INFO  org.example.InfoReporter - Taking a screenshot: 
+00:40:27.940 [main] INFO  org.example.InfoReporter - Driver doesn't support snapshots.
+00:40:37.950 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+00:40:37.955 [main] INFO  org.example.InfoReporter - SetUp the Browser
+00:40:40.711 [main] INFO  org.example.InfoReporter - Staring MainTask - HomePage
+00:40:40.714 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+00:40:43.295 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+00:40:43.296 [main] WARN  org.example.InfoReporter - Test: accessToAgreementListTest - [SKIPPED]
+00:40:43.296 [main] INFO  org.example.InfoReporter - Taking a screenshot: 
+00:40:43.296 [main] INFO  org.example.InfoReporter - Driver doesn't support snapshots.
+00:40:43.301 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+00:40:43.301 [main] WARN  org.example.InfoReporter - Test: changeToCreateAgreementTest - [SKIPPED]
+00:40:43.301 [main] INFO  org.example.InfoReporter - Taking a screenshot: 
+00:40:43.301 [main] INFO  org.example.InfoReporter - Driver doesn't support snapshots.
+00:40:43.302 [main] INFO  org.example.InfoReporter - Test: fillCostumerMadCodeTes - [Starting...]
+00:40:43.303 [main] WARN  org.example.InfoReporter - Test: fillCostumerMadCodeTes - [SKIPPED]
+00:40:43.303 [main] INFO  org.example.InfoReporter - Taking a screenshot: 
+00:40:43.303 [main] INFO  org.example.InfoReporter - Driver doesn't support snapshots.
+00:40:43.304 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+00:40:43.304 [main] WARN  org.example.InfoReporter - Test: fillAllFields - [SKIPPED]
+00:40:43.305 [main] INFO  org.example.InfoReporter - Taking a screenshot: 
+00:40:43.305 [main] INFO  org.example.InfoReporter - Driver doesn't support snapshots.
+00:41:34.909 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+00:41:34.915 [main] INFO  org.example.InfoReporter - SetUp the Browser
+00:41:37.611 [main] INFO  org.example.InfoReporter - Staring MainTask - HomePage
+00:41:37.613 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+00:41:57.710 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+00:41:57.717 [main] INFO  org.example.InfoReporter - SetUp the Browser
+00:42:00.752 [main] INFO  org.example.InfoReporter - Staring MainTask - HomePage
+00:42:00.888 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+00:42:24.050 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+00:42:24.051 [main] WARN  org.example.InfoReporter - Test: accessToAgreementListTest - [SKIPPED]
+00:42:24.051 [main] INFO  org.example.InfoReporter - Taking a screenshot: 
+00:42:24.051 [main] INFO  org.example.InfoReporter - Driver doesn't support snapshots.
+00:42:24.054 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+00:42:24.054 [main] WARN  org.example.InfoReporter - Test: changeToCreateAgreementTest - [SKIPPED]
+00:42:24.054 [main] INFO  org.example.InfoReporter - Taking a screenshot: 
+00:42:24.054 [main] INFO  org.example.InfoReporter - Driver doesn't support snapshots.
+00:42:24.056 [main] INFO  org.example.InfoReporter - Test: fillCostumerMadCodeTes - [Starting...]
+00:42:24.056 [main] WARN  org.example.InfoReporter - Test: fillCostumerMadCodeTes - [SKIPPED]
+00:42:24.056 [main] INFO  org.example.InfoReporter - Taking a screenshot: 
+00:42:24.056 [main] INFO  org.example.InfoReporter - Driver doesn't support snapshots.
+00:42:24.057 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+00:42:24.057 [main] WARN  org.example.InfoReporter - Test: fillAllFields - [SKIPPED]
+00:42:24.058 [main] INFO  org.example.InfoReporter - Taking a screenshot: 
+00:42:24.058 [main] INFO  org.example.InfoReporter - Driver doesn't support snapshots.
+00:43:04.614 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+00:43:04.619 [main] INFO  org.example.InfoReporter - SetUp the Browser
+00:43:12.345 [main] INFO  org.example.InfoReporter - Staring MainTask - HomePage
+00:43:12.357 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+00:43:31.832 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+00:43:31.832 [main] WARN  org.example.InfoReporter - Test: accessToAgreementListTest - [SKIPPED]
+00:43:31.832 [main] INFO  org.example.InfoReporter - Taking a screenshot: 
+00:43:31.832 [main] INFO  org.example.InfoReporter - Driver doesn't support snapshots.
+00:43:31.835 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+00:43:31.835 [main] WARN  org.example.InfoReporter - Test: changeToCreateAgreementTest - [SKIPPED]
+00:43:31.835 [main] INFO  org.example.InfoReporter - Taking a screenshot: 
+00:43:31.835 [main] INFO  org.example.InfoReporter - Driver doesn't support snapshots.
+00:43:31.837 [main] INFO  org.example.InfoReporter - Test: fillCostumerMadCodeTes - [Starting...]
+00:43:31.837 [main] WARN  org.example.InfoReporter - Test: fillCostumerMadCodeTes - [SKIPPED]
+00:43:31.837 [main] INFO  org.example.InfoReporter - Taking a screenshot: 
+00:43:31.837 [main] INFO  org.example.InfoReporter - Driver doesn't support snapshots.
+00:43:31.838 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+00:43:31.838 [main] WARN  org.example.InfoReporter - Test: fillAllFields - [SKIPPED]
+00:43:31.838 [main] INFO  org.example.InfoReporter - Taking a screenshot: 
+00:43:31.838 [main] INFO  org.example.InfoReporter - Driver doesn't support snapshots.
+00:51:52.166 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+00:51:52.172 [main] INFO  org.example.InfoReporter - SetUp the Browser
+00:51:56.229 [main] INFO  org.example.InfoReporter - Staring MainTask - HomePage
+00:51:56.369 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+00:52:15.391 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+00:52:15.392 [main] WARN  org.example.InfoReporter - Test: accessToAgreementListTest - [SKIPPED]
+00:52:15.392 [main] INFO  org.example.InfoReporter - Taking a screenshot: 
+00:52:15.392 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [FAIL]
+00:52:15.392 [main] INFO  org.example.InfoReporter - Taking a screenshot: 
+00:54:43.646 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+00:54:43.653 [main] INFO  org.example.InfoReporter - SetUp the Browser
+00:54:46.607 [main] INFO  org.example.InfoReporter - Staring MainTask - HomePage
+00:54:46.740 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+00:55:05.249 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+00:55:05.250 [main] WARN  org.example.InfoReporter - Test: accessToAgreementListTest - [SKIPPED]
+00:55:05.250 [main] INFO  org.example.InfoReporter - Taking a screenshot: 
+00:55:05.250 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [FAIL]
+00:55:05.250 [main] INFO  org.example.InfoReporter - Taking a screenshot: 
+00:58:08.534 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+00:58:08.541 [main] INFO  org.example.InfoReporter - SetUp the Browser
+00:58:11.165 [main] INFO  org.example.InfoReporter - Staring MainTask - HomePage
+00:58:11.302 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+00:58:30.337 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+00:58:30.337 [main] WARN  org.example.InfoReporter - Test: accessToAgreementListTest - [SKIPPED]
+00:58:30.337 [main] INFO  org.example.InfoReporter - Taking a screenshot: 
+00:58:30.337 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [FAIL]
+00:58:30.337 [main] INFO  org.example.InfoReporter - Taking a screenshot: 
+00:59:41.673 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+00:59:41.678 [main] INFO  org.example.InfoReporter - SetUp the Browser
+00:59:44.303 [main] INFO  org.example.InfoReporter - Staring MainTask - HomePage
+00:59:44.428 [main] INFO  org.example.InfoReporter - Taking a screenshot: 
+00:59:44.622 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+00:59:51.943 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+00:59:51.943 [main] WARN  org.example.InfoReporter - Test: accessToAgreementListTest - [SKIPPED]
+00:59:51.944 [main] INFO  org.example.InfoReporter - Taking a screenshot: 
+00:59:51.944 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [FAIL]
+00:59:51.944 [main] INFO  org.example.InfoReporter - Taking a screenshot: 
+01:00:25.282 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+01:00:25.287 [main] INFO  org.example.InfoReporter - SetUp the Browser
+01:00:28.124 [main] INFO  org.example.InfoReporter - Staring MainTask - HomePage
+01:00:28.242 [main] INFO  org.example.InfoReporter - Taking a screenshot: 
+01:00:28.402 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:00:46.932 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+01:00:46.933 [main] WARN  org.example.InfoReporter - Test: accessToAgreementListTest - [SKIPPED]
+01:00:46.933 [main] INFO  org.example.InfoReporter - Taking a screenshot: 
+01:00:46.933 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [FAIL]
+01:00:46.933 [main] INFO  org.example.InfoReporter - Taking a screenshot: 
+01:03:29.399 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+01:03:29.404 [main] INFO  org.example.InfoReporter - SetUp the Browser
+01:03:32.360 [main] INFO  org.example.InfoReporter - Staring MainTask - HomePage
+01:03:32.493 [main] INFO  org.example.InfoReporter - Taking a screenshot: 
+01:03:32.496 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:03:35.392 [main] INFO  org.example.InfoReporter - Failed to catch the snapshot: src\docs\errorsnapshots\Login20231012010335.png (The system cannot find the path specified)
+01:03:51.321 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+01:03:51.321 [main] WARN  org.example.InfoReporter - Test: accessToAgreementListTest - [SKIPPED]
+01:03:51.321 [main] INFO  org.example.InfoReporter - Taking a screenshot: 
+01:03:51.322 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [FAIL]
+01:03:51.322 [main] INFO  org.example.InfoReporter - Taking a screenshot: 
+01:04:16.945 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+01:04:16.953 [main] INFO  org.example.InfoReporter - SetUp the Browser
+01:04:19.635 [main] INFO  org.example.InfoReporter - Staring MainTask - HomePage
+01:04:19.754 [main] INFO  org.example.InfoReporter - Taking a screenshot: 
+01:04:19.757 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:04:22.569 [main] INFO  org.example.InfoReporter - Snapshot name: Login20231012010422.png
+01:04:38.916 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+01:04:38.916 [main] WARN  org.example.InfoReporter - Test: accessToAgreementListTest - [SKIPPED]
+01:04:38.916 [main] INFO  org.example.InfoReporter - Taking a screenshot: 
+01:04:38.916 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [FAIL]
+01:04:38.917 [main] INFO  org.example.InfoReporter - Taking a screenshot: 
+01:05:41.707 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+01:05:41.712 [main] INFO  org.example.InfoReporter - SetUp the Browser
+01:05:44.418 [main] INFO  org.example.InfoReporter - Staring MainTask - HomePage
+01:05:44.541 [main] INFO  org.example.InfoReporter - Taking a screenshot: 
+01:05:44.544 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:06:02.679 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+01:06:02.680 [main] WARN  org.example.InfoReporter - Test: accessToAgreementListTest - [SKIPPED]
+01:06:02.680 [main] INFO  org.example.InfoReporter - Taking a screenshot: 
+01:06:02.680 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [FAIL]
+01:06:02.680 [main] INFO  org.example.InfoReporter - Taking a screenshot: 
+01:06:02.968 [main] INFO  org.example.InfoReporter - Snapshot name: Login20231012010602.png
+01:09:12.999 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+01:09:13.005 [main] INFO  org.example.InfoReporter - SetUp the Browser
+01:09:15.790 [main] INFO  org.example.InfoReporter - Staring MainTask - HomePage
+01:09:15.907 [main] INFO  org.example.InfoReporter - Taking a screenshot: 
+01:09:15.910 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:09:25.240 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:09:25.275 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+01:09:25.276 [main] INFO  org.example.InfoReporter - TEST-> Correct Access to OBI
+01:09:25.276 [main] INFO  org.example.InfoReporter - Loading Wait...
+01:09:32.298 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [FAIL]
+01:09:32.309 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+01:09:32.309 [main] WARN  org.example.InfoReporter - Test: changeToCreateAgreementTest - [SKIPPED]
+01:09:32.309 [main] INFO  org.example.InfoReporter - Test: fillCostumerMadCodeTes - [Starting...]
+01:09:32.309 [main] WARN  org.example.InfoReporter - Test: fillCostumerMadCodeTes - [SKIPPED]
+01:09:32.311 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+01:09:32.312 [main] WARN  org.example.InfoReporter - Test: fillAllFields - [SKIPPED]
+01:09:32.536 [main] INFO  org.example.InfoReporter - Snapshot name: Login20231012010932.png
+01:09:45.950 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+01:09:45.955 [main] INFO  org.example.InfoReporter - SetUp the Browser
+01:09:48.741 [main] INFO  org.example.InfoReporter - Staring MainTask - HomePage
+01:09:48.875 [main] INFO  org.example.InfoReporter - Taking a screenshot: 
+01:09:48.877 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:09:59.685 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:09:59.702 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+01:09:59.702 [main] INFO  org.example.InfoReporter - TEST-> Correct Access to OBI
+01:09:59.703 [main] INFO  org.example.InfoReporter - Loading Wait...
+01:10:08.089 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [PASSED]
+01:10:08.093 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+01:10:08.200 [main] INFO  org.example.InfoReporter - Loading Wait...
+01:10:09.301 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:10:09.302 [main] INFO  org.example.InfoReporter - TEST-> Click on Create New Agreement
+01:10:09.311 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [PASSED]
+01:10:09.312 [main] INFO  org.example.InfoReporter - Test: fillCostumerMadCodeTes - [Starting...]
+01:10:09.398 [main] INFO  org.example.InfoReporter - TEST-> End To End - System Call - CostumerByMadCode
+01:10:09.479 [main] INFO  org.example.InfoReporter - Loading Wait...
+01:10:11.672 [main] INFO  org.example.InfoReporter - Test: fillCostumerMadCodeTes - [PASSED]
+01:10:11.673 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+01:10:11.673 [main] INFO  org.example.InfoReporter - TEST-> Complete Forms
+01:10:11.781 [main] ERROR org.example.InfoReporter - EXPIRY DATE
+01:10:11.790 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [FAIL]
+01:10:11.934 [main] INFO  org.example.InfoReporter - Snapshot name: Login20231012011011.png
+01:11:16.434 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+01:11:16.440 [main] INFO  org.example.InfoReporter - SetUp the Browser
+01:11:19.250 [main] INFO  org.example.InfoReporter - Staring MainTask - HomePage
+01:11:19.383 [main] INFO  org.example.InfoReporter - Taking a screenshot: 
+01:11:19.390 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:11:33.306 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:11:33.326 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+01:11:33.327 [main] INFO  org.example.InfoReporter - TEST-> Correct Access to OBI
+01:11:33.327 [main] INFO  org.example.InfoReporter - Loading Wait...
+01:11:40.652 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [PASSED]
+01:11:40.655 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+01:11:40.756 [main] INFO  org.example.InfoReporter - Loading Wait...
+01:11:41.326 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:11:41.327 [main] INFO  org.example.InfoReporter - TEST-> Click on Create New Agreement
+01:11:41.333 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [PASSED]
+01:11:41.334 [main] INFO  org.example.InfoReporter - Test: fillCostumerMadCodeTes - [Starting...]
+01:11:41.418 [main] INFO  org.example.InfoReporter - TEST-> End To End - System Call - CostumerByMadCode
+01:11:41.479 [main] INFO  org.example.InfoReporter - Loading Wait...
+01:11:42.600 [main] INFO  org.example.InfoReporter - Test: fillCostumerMadCodeTes - [PASSED]
+01:11:42.601 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+01:11:42.601 [main] INFO  org.example.InfoReporter - TEST-> Complete Forms
+01:11:42.684 [main] INFO  org.example.InfoReporter - Loading Wait...
+01:11:53.220 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [FAIL]
+01:11:53.363 [main] INFO  org.example.InfoReporter - Snapshot name: Login20231012011153.png
+01:12:49.503 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+01:12:49.507 [main] INFO  org.example.InfoReporter - SetUp the Browser
+01:12:52.391 [main] INFO  org.example.InfoReporter - Staring MainTask - HomePage
+01:12:52.516 [main] INFO  org.example.InfoReporter - Taking a screenshot: 
+01:12:52.520 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:13:03.993 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:13:04.016 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+01:13:04.016 [main] INFO  org.example.InfoReporter - TEST-> Correct Access to OBI
+01:13:04.016 [main] INFO  org.example.InfoReporter - Loading Wait...
+01:13:11.845 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [PASSED]
+01:13:11.848 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+01:13:11.943 [main] INFO  org.example.InfoReporter - Loading Wait...
+01:13:13.036 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:13:13.037 [main] INFO  org.example.InfoReporter - TEST-> Click on Create New Agreement
+01:13:13.044 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [PASSED]
+01:13:13.045 [main] INFO  org.example.InfoReporter - Test: fillCostumerMadCodeTes - [Starting...]
+01:13:13.148 [main] INFO  org.example.InfoReporter - TEST-> End To End - System Call - CostumerByMadCode
+01:13:13.231 [main] INFO  org.example.InfoReporter - Loading Wait...
+01:13:14.909 [main] INFO  org.example.InfoReporter - Test: fillCostumerMadCodeTes - [PASSED]
+01:13:14.910 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+01:13:14.911 [main] INFO  org.example.InfoReporter - TEST-> Complete Forms
+01:13:14.998 [main] INFO  org.example.InfoReporter - Loading Wait...
+01:13:25.535 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [FAIL]
+01:13:25.694 [main] INFO  org.example.InfoReporter - Snapshot name: Login20231012011325.png
+01:14:43.083 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+01:14:43.091 [main] INFO  org.example.InfoReporter - SetUp the Browser
+01:14:46.084 [main] INFO  org.example.InfoReporter - Staring MainTask - HomePage
+01:14:46.220 [main] INFO  org.example.InfoReporter - Taking a screenshot: 
+01:14:46.227 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:15:00.839 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:15:00.865 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+01:15:00.866 [main] INFO  org.example.InfoReporter - TEST-> Correct Access to OBI
+01:15:00.866 [main] INFO  org.example.InfoReporter - Loading Wait...
+01:15:08.602 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [PASSED]
+01:15:08.606 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+01:15:08.699 [main] INFO  org.example.InfoReporter - Loading Wait...
+01:15:09.793 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:15:09.794 [main] INFO  org.example.InfoReporter - TEST-> Click on Create New Agreement
+01:15:09.802 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [PASSED]
+01:15:09.803 [main] INFO  org.example.InfoReporter - Test: fillCostumerMadCodeTes - [Starting...]
+01:15:09.909 [main] INFO  org.example.InfoReporter - TEST-> End To End - System Call - CostumerByMadCode
+01:15:09.992 [main] INFO  org.example.InfoReporter - Loading Wait...
+01:15:11.649 [main] INFO  org.example.InfoReporter - Test: fillCostumerMadCodeTes - [PASSED]
+01:15:11.650 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+01:15:11.650 [main] INFO  org.example.InfoReporter - TEST-> Complete Forms
+01:15:11.844 [main] ERROR org.example.InfoReporter - EXPIRY DATE
+01:15:11.851 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [FAIL]
+01:15:12.085 [main] INFO  org.example.InfoReporter - Snapshot name: Login20231012011512.png
+01:16:53.811 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+01:16:53.817 [main] INFO  org.example.InfoReporter - SetUp the Browser
+01:16:56.780 [main] INFO  org.example.InfoReporter - Staring MainTask - HomePage
+01:16:56.906 [main] INFO  org.example.InfoReporter - Taking a screenshot: 
+01:16:56.908 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:17:07.980 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:17:07.998 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+01:17:07.999 [main] INFO  org.example.InfoReporter - TEST-> Correct Access to OBI
+01:17:07.999 [main] INFO  org.example.InfoReporter - Loading Wait...
+01:17:13.358 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [FAIL]
+01:17:13.372 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+01:17:13.373 [main] WARN  org.example.InfoReporter - Test: changeToCreateAgreementTest - [SKIPPED]
+01:17:13.374 [main] INFO  org.example.InfoReporter - Test: fillCostumerMadCodeTes - [Starting...]
+01:17:13.374 [main] WARN  org.example.InfoReporter - Test: fillCostumerMadCodeTes - [SKIPPED]
+01:17:13.375 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+01:17:13.376 [main] WARN  org.example.InfoReporter - Test: fillAllFields - [SKIPPED]
+01:17:13.529 [main] INFO  org.example.InfoReporter - Snapshot name: Login20231012011713.png
+01:17:22.656 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+01:17:22.665 [main] INFO  org.example.InfoReporter - SetUp the Browser
+01:17:26.221 [main] INFO  org.example.InfoReporter - Staring MainTask - HomePage
+01:17:26.365 [main] INFO  org.example.InfoReporter - Taking a screenshot: 
+01:17:26.369 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:17:38.993 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:17:39.016 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+01:17:39.016 [main] INFO  org.example.InfoReporter - TEST-> Correct Access to OBI
+01:17:39.016 [main] INFO  org.example.InfoReporter - Loading Wait...
+01:17:46.289 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [PASSED]
+01:17:46.292 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+01:17:46.396 [main] INFO  org.example.InfoReporter - Loading Wait...
+01:17:47.011 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:17:47.013 [main] INFO  org.example.InfoReporter - TEST-> Click on Create New Agreement
+01:17:47.020 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [PASSED]
+01:17:47.022 [main] INFO  org.example.InfoReporter - Test: fillCostumerMadCodeTes - [Starting...]
+01:17:47.132 [main] INFO  org.example.InfoReporter - TEST-> End To End - System Call - CostumerByMadCode
+01:17:47.193 [main] INFO  org.example.InfoReporter - Loading Wait...
+01:17:48.324 [main] INFO  org.example.InfoReporter - Test: fillCostumerMadCodeTes - [PASSED]
+01:17:48.325 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+01:17:48.326 [main] INFO  org.example.InfoReporter - TEST-> Complete Forms
+01:17:48.651 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [PASSED]
+01:17:48.826 [main] INFO  org.example.InfoReporter - Snapshot name: Login20231012011748.png

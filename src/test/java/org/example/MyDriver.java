@@ -8,6 +8,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class MyDriver extends InfoReporter {
     private WebDriver driver;
     public MyDriver(String browser) {
+        logInfo("SetUp the Browser");
         switch (browser.toLowerCase()) {
             case "firefox":
                 driver = new FirefoxDriver();

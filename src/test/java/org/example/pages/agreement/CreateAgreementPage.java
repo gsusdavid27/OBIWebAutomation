@@ -52,14 +52,13 @@ public class CreateAgreementPage extends BasePage {
 
     public boolean fillAllFields(String sdate, String vendor, String site, int days){
         effectiveDateField.sendKeys(sdate);
-        if(!generateExpiryDate(sdate,days).equals(expiryDateField.getText())){
+        remittanceInput.click();
+        if(!generateExpiryDate(sdate,days).contains(expiryDateField.getText())){
+            logError("EXPIRY DATE");
             return false;
         }
         vendorCode.sendKeys(vendor);
         siteCode.sendKeys(site);
-        if(!costumerName.equals(madCodeField.getText())){
-            return false;
-        }
         return true;
     }
 

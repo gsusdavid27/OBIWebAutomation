@@ -20,6 +20,7 @@ public abstract class BasePage extends InfoReporter {
 
     public BasePage(WebDriver driver) {
         this.driver = driver;
+        logInfo("+++Setting Up Factory+++");
         PageFactory.initElements(driver, this);
         wait = new WebDriverWait(driver, Duration.ofSeconds(10));
     }
@@ -29,6 +30,7 @@ public abstract class BasePage extends InfoReporter {
     }
 
     public void loadingIndicatorWait(){
+        logInfo("Loading Wait...");
         getWait().until(ExpectedConditions.visibilityOf(loadingIndicator));
         getWait().until(ExpectedConditions.invisibilityOf(loadingIndicator));
     }
