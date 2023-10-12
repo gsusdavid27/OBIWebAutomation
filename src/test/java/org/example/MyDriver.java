@@ -6,20 +6,24 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class MyDriver {
     private WebDriver driver;
+
     public MyDriver(String browser) {
-        switch (browser){
+        switch (browser.toLowerCase()) {
             case "firefox":
-                driver=new FirefoxDriver();
+                driver = new FirefoxDriver();
                 break;
             case "chrome":
-                System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
                 driver = new ChromeDriver();
                 break;
             default:
-                break;
+                throw new IllegalArgumentException("Navegador no válido: " + browser);
         }
     }
+
     public WebDriver getDriver() {
-        return this.driver;
+        if (driver == null) {
+            throw new IllegalStateException("El controlador no se ha inicializado correctamente.");
+        }
+        return driver;
     }
 }

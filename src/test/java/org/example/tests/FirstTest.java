@@ -1,44 +1,32 @@
 package org.example.tests;
 
-import org.example.pages.AgreementListPage;
-import org.example.pages.MicrosoftSSOPage;
+import org.example.pages.agreement.CreateAgreementPage;
+import org.example.pages.agreement.AgreementListPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class FirstTest extends BaseTest {
 
     private AgreementListPage agreementListPage;
+    private CreateAgreementPage createAgreementPage;
     @Test
-    public void loginWithSSO(){
+    public void accessToAgreementListTest(){
         agreementListPage =  getAgreementListPage();
-        agreementListPage.createNewAgreement();
+        Assert.assertTrue(agreementListPage.checkTitle().contains("Agreement List"));
+    }
+
+    @Test(dependsOnMethods = "accessToAgreementListTest")
+    public void changeToCreateAgreementTest(){
+        createAgreementPage =agreementListPage.createNewAgreement();
+        Assert.assertTrue(createAgreementPage.getCurrentUrl().contains("/obi-agreement/agreement-create"));
+    }
+    @Test(dependsOnMethods = "changeToCreateAgreementTest")
+    public void fillCustumerMadCodeTes(){
+        createAgreementPage.fillCusomerMadCode("HAGNA001900");
+        Assert.assertEquals(createAgreementPage.checkCostumerNameUpdate(),"VALLEN");
     }
 
 
-    /*
-    private InventoryPage inventoryPage;
-    private ProductPage productPage;
-    private ShoppingCartPage shoppingCartPage;
 
-    @Test
-    public void selectProductTest() {
-        inventoryPage = getInventoryPage();
-        productPage = inventoryPage.details();
-        Assert.assertEquals(productPage.getProductImage(), inventoryPage.getProductImageSRC());
-    }
 
-    @Test(dependsOnMethods = "selectProductTest")
-    public void addToCartTest() {
-        shoppingCartPage = productPage.goToShoppingCart();
-    }
-
-    @Test(dependsOnMethods = "addToCartTest")
-    public void checkoutTest() {
-        CheckoutPrincipalPage checkout_01 = shoppingCartPage.checkout();
-        CheckoutOverviewPage checkout_02 = checkout_01.provideData("Samuel", "Traslaviña", "123456");
-        CheckoutCompletePage checkout_03 = checkout_02.finishProcess();
-        Assert.assertEquals("Thank you for your order!", checkout_03.getConfirmationMessage());
-    }
-
-     */
 }

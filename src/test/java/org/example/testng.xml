@@ -4,8 +4,7 @@
         <listener class-name="org.example.utils.CustomTestListener"/>
     </listeners>
     <parameter name="browser" value="chrome" />
-    <parameter name="user" value="jesus.traslavina@xpo.com" />
-    <parameter name="password" value="Trasla27" />
+    <parameter name="environment" value="testing" /> <!-- Para el entorno de preprod (preprod) -->
     <test name="NewAgreementTest">
         <classes>
             <class name="org.example.tests.FirstTest" />

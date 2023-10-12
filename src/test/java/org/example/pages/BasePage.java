@@ -10,44 +10,39 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
 public abstract class BasePage {
-    private WebDriver driver;
-    private WebDriverWait wait;
+    protected WebDriver driver;
+    protected WebDriverWait wait;
 
-    //Elementos comunes
-    /*
-    @FindBy(css = "a.shopping_cart_link")
-    public WebElement shoppingCart;//Para algunas páginas
+    @FindBy(css = "circle.ng-star-inserted")
+    public WebElement loadingIndicator;
 
-    @FindBy(css="button#react-burger-menu-btn")
-    public WebElement burgerMenu;
-
-    @FindBy(css="a#logout_sidebar_link")
-    public WebElement logOut;
-*/
-    public BasePage(WebDriver driver){
-        PageFactory.initElements(driver, this);
-        wait=new WebDriverWait(driver, Duration.ofSeconds(10));
+    public BasePage(WebDriver driver) {
         this.driver = driver;
+        PageFactory.initElements(driver, this);
+        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
     }
 
-    public WebDriverWait getWait(){
+    public WebDriverWait getWait() {
         return wait;
     }
 
+    public void loadingIndicatorWait(){
+        getWait().until(ExpectedConditions.visibilityOf(loadingIndicator));
+        getWait().until(ExpectedConditions.invisibilityOf(loadingIndicator));
+    }
 
-    protected WebDriver getDriver(){
+    protected WebDriver getDriver() {
         return driver;
     }
-    /*
-    public ShoppingCartPage goToShoppingCart(){
-        getWait().until(ExpectedConditions.elementToBeClickable(shoppingCart));
-        shoppingCart.click();
-        return new ShoppingCartPage(getDriver());
-    }
-*/
-    public void dispose(){
-        if(driver!= null){
-            driver.quit();
+
+    public void dispose() {
+        if (driver != null) {
+            try {
+                driver.quit();
+            } catch (Exception e) {
+                // Manejo de excepciones en caso de problemas al cerrar el navegador
+                e.printStackTrace();
+            }
         }
     }
 }
