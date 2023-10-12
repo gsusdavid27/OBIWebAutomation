@@ -1,7 +1,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="MyTestSuite">
     <listeners>
-        <listener class-name="org.example.utils.CustomTestListener"/>
+        <listener class-name="org.example.utils.EventListener"/>
     </listeners>
     <parameter name="browser" value="chrome" />
     <parameter name="environment" value="testing" /> <!-- Para el entorno de preprod (preprod) -->

@@ -21,12 +21,13 @@ public class FirstTest extends BaseTest {
         Assert.assertTrue(createAgreementPage.getCurrentUrl().contains("/obi-agreement/agreement-create"));
     }
     @Test(dependsOnMethods = "changeToCreateAgreementTest")
-    public void fillCustumerMadCodeTes(){
-        createAgreementPage.fillCusomerMadCode("HAGNA001900");
-        Assert.assertEquals(createAgreementPage.checkCostumerNameUpdate(),"VALLEN");
+    public void fillCostumerMadCodeTes(){
+        createAgreementPage.fillCusomerMadCode("COCVW001900");
+        Assert.assertEquals(createAgreementPage.checkCostumerNameUpdate(),"CONKLIN COMPANY INC");
     }
 
-
-
-
+    @Test(dependsOnMethods = "fillCostumerMadCodeTes")
+    public void fillAllFields(){
+        Assert.assertTrue( createAgreementPage.fillAllFields("01/01/2024","6174","6174",364) );
+    }
 }
