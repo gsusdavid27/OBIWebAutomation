@@ -1,13 +1,13 @@
 package org.example.pages;
 
 import org.example.InfoReporter;
+import org.example.MyDriver; // Importa la clase MyDriver
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 
 import java.time.Duration;
 
@@ -18,8 +18,8 @@ public abstract class BasePage extends InfoReporter {
     @FindBy(css = "circle.ng-star-inserted")
     public WebElement loadingIndicator;
 
-    public BasePage(WebDriver driver) {
-        this.driver = driver;
+    public BasePage() {
+        this.driver = MyDriver.getInstance("").getDriver(); // Utiliza el Singleton de MyDriver
         logInfo("+++Setting Up Factory+++");
         PageFactory.initElements(driver, this);
         wait = new WebDriverWait(driver, Duration.ofSeconds(10));
@@ -33,20 +33,5 @@ public abstract class BasePage extends InfoReporter {
         logInfo("Loading Wait...");
         getWait().until(ExpectedConditions.visibilityOf(loadingIndicator));
         getWait().until(ExpectedConditions.invisibilityOf(loadingIndicator));
-    }
-
-    protected WebDriver getDriver() {
-        return driver;
-    }
-
-    public void dispose() {
-        if (driver != null) {
-            try {
-                driver.quit();
-            } catch (Exception e) {
-                // Manejo de excepciones en caso de problemas al cerrar el navegador
-                e.printStackTrace();
-            }
-        }
     }
 }

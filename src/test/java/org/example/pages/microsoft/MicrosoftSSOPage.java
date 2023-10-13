@@ -25,7 +25,7 @@ public class MicrosoftSSOPage extends BasePage {
     private WebElement denyStay;
 
     public MicrosoftSSOPage(WebDriver driver, String url) {
-        super(driver);
+        super();
         driver.get(url);
     }
 
@@ -47,6 +47,6 @@ public class MicrosoftSSOPage extends BasePage {
         getWait().until(ExpectedConditions.elementToBeClickable(denyStay));
         denyStay.click();
 
-        return new AgreementListPage(getDriver());
+        return new AgreementListPage();
     }
 }

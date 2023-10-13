@@ -8,8 +8,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 
 //https://obi-g.dev-ltl-xpo.com/obi-agreement/list-page
 public class AgreementListPage extends BasePage {
-    public AgreementListPage(WebDriver driver) {
-        super(driver);
+    public AgreementListPage() {
+        super();
     }
 
     @FindBy(css = ".xpo-BoardHeader-title.xpo-BoardHeader-title")
@@ -26,6 +26,6 @@ public class AgreementListPage extends BasePage {
         getWait().until(ExpectedConditions.elementToBeClickable(newAgreementButton));
         newAgreementButton.click();
         loadingIndicatorWait();
-        return new CreateAgreementPage(getDriver());
+        return new CreateAgreementPage();
     }
 }

@@ -34,8 +34,8 @@ public class CreateAgreementPage extends BasePage {
     @FindBy(css = "input[formcontrolname=\"siteCode\"]")
     private WebElement siteCode;
 
-    public CreateAgreementPage(WebDriver driver) {
-        super(driver);
+    public CreateAgreementPage() {
+        super();
     }
     public String getCurrentUrl(){
         return driver.getCurrentUrl();
