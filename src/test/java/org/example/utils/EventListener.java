@@ -18,7 +18,7 @@ import static java.lang.String.format;
 
 public class EventListener extends BaseTest implements ITestListener {
 
-    MyDriver currentDriver = MyDriver.getInstance(""); // Reemplaza "chrome" con el navegador deseado
+    protected WebDriver driver;
 
     @Override
     public void onTestFailure(ITestResult result) {
@@ -39,19 +39,29 @@ public class EventListener extends BaseTest implements ITestListener {
     @Override
     public void onTestSuccess(ITestResult result) {
         logInfo(format("Test: %s - [PASSED]", result.getName()));
+        takeSnapShot(result.getName());
     }
 
     private void takeSnapShot(String testName) {
-        if (currentDriver.getDriver() instanceof TakesScreenshot) {
-            File snapshot = ((TakesScreenshot) currentDriver.getDriver()).getScreenshotAs(OutputType.FILE);
-            String timeStamp = new SimpleDateFormat("yyyyMMddHHmmss").format(new Date());
-            String snapShotName = testName + timeStamp + ".png";
+        this.driver = MyDriver.getInstance("").getDriver(); // Utiliza el Singleton de MyDriver
+
+        if (driver instanceof TakesScreenshot) {
+            File snapshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+            SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss");
+            String formattedDate = dateFormat.format(new Date());
+            File folder = new File("src/info/bugs/" + testName);
+
+            if (!folder.exists()) {
+                folder.mkdirs();
+            }
+
+            String snapShotName = formattedDate + ".png"; // Nombre de la imagen
 
             try {
-                FileHandler.copy(snapshot, new File("src/info/bugs/" + snapShotName));
-                logInfo("Snapshot name: " + snapShotName);
+                FileHandler.copy(snapshot, new File(folder, snapShotName));
+                logInfo("Snapshot saved in: " + testName + "/" + snapShotName);
             } catch (IOException e) {
-                logInfo("Failed to capture the snapshot: " + e.getMessage());
+                logInfo("Failed to capture and save the snapshot: " + e.getMessage());
             }
         } else {
             logInfo("Driver doesn't support snapshots.");

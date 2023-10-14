@@ -9,7 +9,7 @@ public class FirstTest extends BaseTest {
 
     private AgreementListPage agreementListPage;
     private CreateAgreementPage createAgreementPage;
-    @Test(dependsOnMethods = "login")
+    @Test()
     public void accessToAgreementListTest(){
         agreementListPage =  getAgreementListPage();
         logInfo("TEST-> Correct Access to OBI");

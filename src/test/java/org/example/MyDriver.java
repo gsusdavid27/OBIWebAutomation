@@ -10,21 +10,31 @@ public class MyDriver extends InfoReporter {
 
     private MyDriver(String browser) {
         logInfo("SetUp the Browser");
-        switch (browser.toLowerCase()) {
-            case "firefox":
-                driver = new FirefoxDriver();
-                break;
-            case "chrome":
-                driver = new ChromeDriver();
-                break;
-            default:
-                logWarning("Stopped->Invalid Browser");
+        try {
+            switch (browser.toLowerCase()) {
+                case "firefox":
+                    this.driver = new FirefoxDriver();
+                    break;
+                case "chrome":
+                    this.driver = new ChromeDriver();
+                    break;
+                default:
+                    logWarning("Stopped->Invalid Browser"+browser);
+                    throw new IllegalArgumentException("Invalid browser: " + browser);
+            }
+        } catch (Exception e) {
+            logError("Error initializing WebDriver: " + e.getMessage());
+            throw new RuntimeException("WebDriver initialization failed", e);
         }
     }
 
     public static MyDriver getInstance(String browser) {
         if (instance == null) {
-            instance = new MyDriver(browser);
+            synchronized (MyDriver.class) {
+                if (instance == null) {
+                    instance = new MyDriver(browser);
+                }
+            }
         }
         return instance;
     }
@@ -34,5 +44,12 @@ public class MyDriver extends InfoReporter {
             logWarning("El controlador no se ha inicializado correctamente.");
         }
         return driver;
+    }
+
+    public void closeDriver() {
+        if (driver != null) {
+            driver.quit();
+            driver = null;
+        }
     }
 }

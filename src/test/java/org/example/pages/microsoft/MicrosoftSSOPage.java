@@ -1,5 +1,6 @@
 package org.example.pages.microsoft;
 
+import org.example.MyDriver;
 import org.example.pages.BasePage;
 import org.example.pages.agreement.AgreementListPage;
 import org.openqa.selenium.WebDriver;
@@ -24,9 +25,8 @@ public class MicrosoftSSOPage extends BasePage {
     @FindBy(css = "input[value='No']")
     private WebElement denyStay;
 
-    public MicrosoftSSOPage(WebDriver driver, String url) {
-        super();
-        driver.get(url);
+    public MicrosoftSSOPage(String url) {
+        super.driver.get(url);
     }
 
     /**

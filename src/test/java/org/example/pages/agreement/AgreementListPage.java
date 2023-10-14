@@ -8,9 +8,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 
 //https://obi-g.dev-ltl-xpo.com/obi-agreement/list-page
 public class AgreementListPage extends BasePage {
-    public AgreementListPage() {
-        super();
-    }
+    public AgreementListPage() {}
 
     @FindBy(css = ".xpo-BoardHeader-title.xpo-BoardHeader-title")
     private WebElement pageTitle;

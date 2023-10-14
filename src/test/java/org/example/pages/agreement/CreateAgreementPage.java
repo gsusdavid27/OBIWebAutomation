@@ -1,5 +1,6 @@
 package org.example.pages.agreement;
 
+import org.example.MyDriver;
 import org.example.pages.BasePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -34,9 +35,7 @@ public class CreateAgreementPage extends BasePage {
     @FindBy(css = "input[formcontrolname=\"siteCode\"]")
     private WebElement siteCode;
 
-    public CreateAgreementPage() {
-        super();
-    }
+    public CreateAgreementPage() {}
     public String getCurrentUrl(){
         return driver.getCurrentUrl();
     }
