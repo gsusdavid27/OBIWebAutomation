@@ -1,7 +1,7 @@
-package org.example.utils;
+package org.example.components.tests.handler;
 
-import org.example.MyDriver;
-import org.example.tests.BaseTest;
+import org.example.components.MyDriver;
+import org.example.components.tests.BaseTest;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -39,7 +39,6 @@ public class EventListener extends BaseTest implements ITestListener {
     @Override
     public void onTestSuccess(ITestResult result) {
         logInfo(format("Test: %s - [PASSED]", result.getName()));
-        takeSnapShot(result.getName());
     }
 
     private void takeSnapShot(String testName) {
@@ -49,7 +48,7 @@ public class EventListener extends BaseTest implements ITestListener {
             File snapshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
             SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss");
             String formattedDate = dateFormat.format(new Date());
-            File folder = new File("src/info/bugs/" + testName);
+            File folder = new File("info/bugs/" + testName);
 
             if (!folder.exists()) {
                 folder.mkdirs();

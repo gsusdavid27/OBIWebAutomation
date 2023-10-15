@@ -1,5 +1,6 @@
-package org.example;
+package org.example.components;
 
+import org.example.InfoReporter;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;

@@ -1,8 +1,6 @@
-package org.example.pages.agreement;
+package org.example.components.pages.agreement;
 
-import org.example.MyDriver;
-import org.example.pages.BasePage;
-import org.openqa.selenium.WebDriver;
+import org.example.components.pages.BasePage;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -10,7 +8,6 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
-import java.util.Stack;
 
 //https://obi-g.dev-ltl-xpo.com/obi-agreement/agreement-create
 public class CreateAgreementPage extends BasePage {
@@ -45,7 +42,7 @@ public class CreateAgreementPage extends BasePage {
 
     public String checkCostumerNameUpdate(){
         remittanceInput.click();
-        loadingIndicatorWait();
+        elementLoad(loadingIndicator);
         return costumerName.getText();
     }
 
@@ -53,7 +50,6 @@ public class CreateAgreementPage extends BasePage {
         effectiveDateField.sendKeys(sdate);
         remittanceInput.click();
         if(!generateExpiryDate(sdate,days).contains(expiryDateField.getText())){
-            logError("EXPIRY DATE");
             return false;
         }
         vendorCode.sendKeys(vendor);
@@ -68,9 +64,7 @@ public class CreateAgreementPage extends BasePage {
             Date date = sdf.parse(sdate);
             calendar.setTime(date);
             calendar.add(Calendar.DAY_OF_YEAR, days);
-        } catch (ParseException e) {
-            e.printStackTrace();
-        }
+        } catch (ParseException e) {}
         return sdf.format(calendar.getTime());
     }
 }

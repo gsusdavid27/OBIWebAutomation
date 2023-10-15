@@ -1,4 +1,4 @@
-package org.example.models;
+package org.example.components.model.entity;
 
 public class User {
     private String username;

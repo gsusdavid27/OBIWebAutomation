@@ -7,7 +7,7 @@
         </Console>
 
         <!-- File Appender -->
-        <File name="File" fileName="src/info/logs/logs.log">
+        <File name="File" fileName="info/logs/logs.log">
             <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
         </File>
     </Appenders>

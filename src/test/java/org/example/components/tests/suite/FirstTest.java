@@ -1,7 +1,8 @@
-package org.example.tests;
+package org.example.components.tests.suite;
 
-import org.example.pages.agreement.CreateAgreementPage;
-import org.example.pages.agreement.AgreementListPage;
+import org.example.components.pages.agreement.CreateAgreementPage;
+import org.example.components.pages.agreement.AgreementListPage;
+import org.example.components.tests.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

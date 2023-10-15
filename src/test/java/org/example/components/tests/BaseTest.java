@@ -1,10 +1,10 @@
-package org.example.tests;
+package org.example.components.tests;
 
-import org.example.MyDriver;
+import org.example.components.MyDriver;
 import org.example.InfoReporter;
-import org.example.models.User;
-import org.example.pages.microsoft.MicrosoftSSOPage;
-import org.example.pages.agreement.AgreementListPage;
+import org.example.components.model.entity.User;
+import org.example.components.pages.microsoft.MicrosoftSSOPage;
+import org.example.components.pages.agreement.AgreementListPage;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.*;
 
@@ -13,9 +13,7 @@ import java.io.IOException;
 import java.util.Properties;
 
 public abstract class BaseTest extends InfoReporter {
-    // Ruta relativa para el archivo de propiedades
-    public static final String CONFIG_PROPERTIES = "src/test/java/org/example/resources/properties/config.properties";
-
+    public static final String CONFIG_PROPERTIES = "src/test/resources/config.properties";
     private User currentUser;
     private MicrosoftSSOPage microsoftSSOPage;
     private AgreementListPage agreementListPage;
@@ -47,12 +45,15 @@ public abstract class BaseTest extends InfoReporter {
 
     @BeforeTest(alwaysRun = true)
     public void login() {
-        agreementListPage = microsoftSSOPage.doSSO(currentUser.getUsername(), currentUser.getPassword());
+        agreementListPage = microsoftSSOPage
+                .doSSO(currentUser.getUsername(),
+                        currentUser.getPassword());
     }
 
     @AfterTest(alwaysRun = true)
     public void afterSuite() {
-        MyDriver.getInstance("").closeDriver(); // Cerrar el controlador utilizando el Singleton de MyDriver
+        MyDriver.getInstance("")
+                .closeDriver(); // Cerrar el controlador utilizando el Singleton de MyDriver
     }
 
     public AgreementListPage getAgreementListPage() {

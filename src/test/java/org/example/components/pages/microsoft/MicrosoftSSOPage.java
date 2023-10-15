@@ -1,9 +1,7 @@
-package org.example.pages.microsoft;
+package org.example.components.pages.microsoft;
 
-import org.example.MyDriver;
-import org.example.pages.BasePage;
-import org.example.pages.agreement.AgreementListPage;
-import org.openqa.selenium.WebDriver;
+import org.example.components.pages.BasePage;
+import org.example.components.pages.agreement.AgreementListPage;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;

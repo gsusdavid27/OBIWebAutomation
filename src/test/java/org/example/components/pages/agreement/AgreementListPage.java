@@ -1,7 +1,6 @@
-package org.example.pages.agreement;
+package org.example.components.pages.agreement;
 
-import org.example.pages.BasePage;
-import org.openqa.selenium.WebDriver;
+import org.example.components.pages.BasePage;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -17,13 +16,13 @@ public class AgreementListPage extends BasePage {
     private WebElement newAgreementButton;
 
     public String checkTitle(){
-        loadingIndicatorWait();
+        elementLoad(loadingIndicator);
         return pageTitle.getText();
     }
     public CreateAgreementPage createNewAgreement() {
         getWait().until(ExpectedConditions.elementToBeClickable(newAgreementButton));
         newAgreementButton.click();
-        loadingIndicatorWait();
+        elementLoad(loadingIndicator);
         return new CreateAgreementPage();
     }
 }

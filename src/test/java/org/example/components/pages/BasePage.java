@@ -1,7 +1,7 @@
-package org.example.pages;
+package org.example.components.pages;
 
 import org.example.InfoReporter;
-import org.example.MyDriver; // Importa la clase MyDriver
+import org.example.components.MyDriver;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -19,19 +19,19 @@ public abstract class BasePage extends InfoReporter {
     public WebElement loadingIndicator;
 
     public BasePage() {
-        this.driver = MyDriver.getInstance("").getDriver(); // Utiliza el Singleton de MyDriver
+        this.driver = MyDriver.getInstance("").getDriver();
         logInfo("+++Setting Up Factory+++");
         PageFactory.initElements(driver, this);
-        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        wait = new WebDriverWait(driver, Duration.ofSeconds(15));
     }
 
     public WebDriverWait getWait() {
         return wait;
     }
 
-    public void loadingIndicatorWait(){
+    public void elementLoad(WebElement element){
         logInfo("Loading Wait...");
-        getWait().until(ExpectedConditions.visibilityOf(loadingIndicator));
-        getWait().until(ExpectedConditions.invisibilityOf(loadingIndicator));
+        getWait().until(ExpectedConditions.visibilityOf(element));
+        getWait().until(ExpectedConditions.invisibilityOf(element));
     }
 }
