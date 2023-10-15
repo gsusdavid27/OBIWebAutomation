@@ -8,8 +8,9 @@ import org.example.components.pages.agreement.AgreementListPage;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.*;
 
-import java.io.FileInputStream;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.util.Properties;
 
 /**
@@ -48,7 +49,7 @@ public abstract class BaseTest extends InfoReporter {
     private void initializeEnvironmentProperties(String environment) throws IOException {
         logInfo("### Reading Environment Properties File ###");
         Properties properties = new Properties();
-        properties.load(new FileInputStream(CONFIG_PROPERTIES));
+        properties.load(Files.newInputStream(Path.of(CONFIG_PROPERTIES)));
         url = properties.getProperty(environment + ".url");
         String username = properties.getProperty(environment + ".username");
         String password = properties.getProperty(environment + ".password");

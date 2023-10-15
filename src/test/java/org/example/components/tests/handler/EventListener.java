@@ -53,7 +53,9 @@ public class EventListener extends BaseTest implements ITestListener {
             File folder = new File("info/bugs/" + testName);
 
             if (!folder.exists()) {
-                folder.mkdirs();
+                if(folder.mkdirs()){
+                    logInfo("New Bug Folder Created: " + testName);
+                }
             }
 
             String snapshotName = formattedDate + ".png"; // Image name

@@ -284,3 +284,25 @@
 21:50:53.732 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
 21:50:53.732 [main] INFO  org.example.InfoReporter - TEST-> Complete Forms
 21:50:53.970 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [PASSED]
+22:00:26.764 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+22:00:26.775 [main] INFO  org.example.InfoReporter - Browser: chrome
+22:00:26.777 [main] INFO  org.example.InfoReporter - Setting up the browser
+22:00:29.974 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+22:00:29.980 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+22:00:51.612 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+22:00:51.630 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+22:00:51.630 [main] INFO  org.example.InfoReporter - TEST-> Correct Access to OBI
+22:00:51.630 [main] INFO  org.example.InfoReporter - Loading Wait...
+22:01:01.481 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [PASSED]
+22:01:01.484 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+22:01:01.619 [main] INFO  org.example.InfoReporter - Loading Wait...
+22:01:02.269 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+22:01:02.271 [main] INFO  org.example.InfoReporter - TEST-> Click on Create New Agreement
+22:01:02.277 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [PASSED]
+22:01:02.279 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [Starting...]
+22:01:02.370 [main] INFO  org.example.InfoReporter - TEST-> End To End - System Call - CustomerByMADCode
+22:01:02.430 [main] INFO  org.example.InfoReporter - Loading Wait...
+22:01:03.566 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [PASSED]
+22:01:03.568 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+22:01:03.568 [main] INFO  org.example.InfoReporter - TEST-> Complete Forms
+22:01:03.892 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [PASSED]
