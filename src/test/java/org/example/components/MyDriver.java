@@ -5,12 +5,20 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+/**
+ * MyDriver class for managing the Selenium WebDriver.
+ */
 public class MyDriver extends InfoReporter {
-    private static MyDriver instance; // Instancia única
+    private static MyDriver instance; // Singleton instance
     private WebDriver driver;
 
+    /**
+     * Private constructor to ensure a single instance of the driver.
+     *
+     * @param browser The browser to use ("chrome" or "firefox").
+     */
     private MyDriver(String browser) {
-        logInfo("SetUp the Browser");
+        logInfo("Setting up the browser");
         try {
             switch (browser.toLowerCase()) {
                 case "firefox":
@@ -20,7 +28,7 @@ public class MyDriver extends InfoReporter {
                     this.driver = new ChromeDriver();
                     break;
                 default:
-                    logWarning("Stopped->Invalid Browser"+browser);
+                    logWarning("Stopped -> Invalid browser: " + browser);
                     throw new IllegalArgumentException("Invalid browser: " + browser);
             }
         } catch (Exception e) {
@@ -29,6 +37,12 @@ public class MyDriver extends InfoReporter {
         }
     }
 
+    /**
+     * Get a single instance of MyDriver.
+     *
+     * @param browser The browser to use ("chrome" or "firefox").
+     * @return The unique instance of MyDriver.
+     */
     public static MyDriver getInstance(String browser) {
         if (instance == null) {
             synchronized (MyDriver.class) {
@@ -40,13 +54,21 @@ public class MyDriver extends InfoReporter {
         return instance;
     }
 
+    /**
+     * Get the WebDriver instance.
+     *
+     * @return The WebDriver instance.
+     */
     public WebDriver getDriver() {
         if (driver == null) {
-            logWarning("El controlador no se ha inicializado correctamente.");
+            logWarning("The driver has not been initialized correctly.");
         }
         return driver;
     }
 
+    /**
+     * Close the WebDriver if it is open.
+     */
     public void closeDriver() {
         if (driver != null) {
             driver.quit();

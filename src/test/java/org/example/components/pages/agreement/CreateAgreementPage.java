@@ -9,15 +9,17 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
-//https://obi-g.dev-ltl-xpo.com/obi-agreement/agreement-create
+/**
+ * CreateAgreementPage represents the page for creating agreements.
+ */
 public class CreateAgreementPage extends BasePage {
     @FindBy(css = "input[formcontrolname=\"madCode\"]")
     private WebElement madCodeField;
 
-    @FindBy(css="strong")
-    private WebElement costumerName;
+    @FindBy(css = "strong")
+    private WebElement customerName;
 
-    @FindBy(css="input[formcontrolname=\"remittanceName\"]") //Debe ser igual a costumer Name.
+    @FindBy(css = "input[formcontrolname=\"remittanceName\"]")
     private WebElement remittanceInput;
 
     @FindBy(css = "input[formcontrolname=\"effectiveDate\"]")
@@ -33,23 +35,49 @@ public class CreateAgreementPage extends BasePage {
     private WebElement siteCode;
 
     public CreateAgreementPage() {}
-    public String getCurrentUrl(){
+
+    /**
+     * Get the current URL of the page.
+     *
+     * @return The current URL of the page.
+     */
+    public String getCurrentUrl() {
         return driver.getCurrentUrl();
     }
-    public void fillCusomerMadCode(String input){
+
+    /**
+     * Fill the MAD Code for the customer.
+     *
+     * @param input The MAD Code input.
+     */
+    public void fillCustomerMADCode(String input) {
         madCodeField.sendKeys(input);
     }
 
-    public String checkCostumerNameUpdate(){
+    /**
+     * Check the customer name update and return it.
+     *
+     * @return The updated customer name.
+     */
+    public String checkCustomerNameUpdate() {
         remittanceInput.click();
         elementLoad(loadingIndicator);
-        return costumerName.getText();
+        return customerName.getText();
     }
 
-    public boolean fillAllFields(String sdate, String vendor, String site, int days){
+    /**
+     * Fill all the required fields for creating an agreement.
+     *
+     * @param sdate  The effective date.
+     * @param vendor The vendor code.
+     * @param site   The site code.
+     * @param days   The number of days to add to the effective date for the expiry date.
+     * @return True if all fields are successfully filled, false otherwise.
+     */
+    public boolean fillAllFields(String sdate, String vendor, String site, int days) {
         effectiveDateField.sendKeys(sdate);
         remittanceInput.click();
-        if(!generateExpiryDate(sdate,days).contains(expiryDateField.getText())){
+        if (!generateExpiryDate(sdate, days).contains(expiryDateField.getText())) {
             return false;
         }
         vendorCode.sendKeys(vendor);
@@ -57,14 +85,23 @@ public class CreateAgreementPage extends BasePage {
         return true;
     }
 
-    public String generateExpiryDate(String sdate, int days){
+    /**
+     * Generate the expiry date based on the effective date and the number of days.
+     *
+     * @param sdate The effective date in "MM/dd/yyyy" format.
+     * @param days  The number of days to add.
+     * @return The generated expiry date in "MM/dd/yyyy" format.
+     */
+    public String generateExpiryDate(String sdate, int days) {
         SimpleDateFormat sdf = new SimpleDateFormat("MM/dd/yyyy");
         Calendar calendar = Calendar.getInstance();
         try {
             Date date = sdf.parse(sdate);
             calendar.setTime(date);
             calendar.add(Calendar.DAY_OF_YEAR, days);
-        } catch (ParseException e) {}
+        } catch (ParseException e) {
+            // Handle the exception if needed.
+        }
         return sdf.format(calendar.getTime());
     }
 }

@@ -11,6 +11,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
+/**
+ * BasePage serves as the base class for all page objects.
+ */
 public abstract class BasePage extends InfoReporter {
     protected WebDriver driver;
     protected WebDriverWait wait;
@@ -25,11 +28,21 @@ public abstract class BasePage extends InfoReporter {
         wait = new WebDriverWait(driver, Duration.ofSeconds(15));
     }
 
+    /**
+     * Get the WebDriverWait instance.
+     *
+     * @return The WebDriverWait instance for waiting for elements.
+     */
     public WebDriverWait getWait() {
         return wait;
     }
 
-    public void elementLoad(WebElement element){
+    /**
+     * Wait for the visibility and then invisibility of an element.
+     *
+     * @param element The WebElement to wait for.
+     */
+    public void elementLoad(WebElement element) {
         logInfo("Loading Wait...");
         getWait().until(ExpectedConditions.visibilityOf(element));
         getWait().until(ExpectedConditions.invisibilityOf(element));

@@ -16,14 +16,16 @@ import java.util.Date;
 
 import static java.lang.String.format;
 
+/**
+ * EventListener is a test listener to capture events and take snapshots on test failures.
+ */
 public class EventListener extends BaseTest implements ITestListener {
-
     protected WebDriver driver;
 
     @Override
     public void onTestFailure(ITestResult result) {
-        logInfo(format("Test: %s - [FAIL]", result.getName() ));
-        takeSnapShot(result.getName());
+        logInfo(format("Test: %s - [FAIL]", result.getName()));
+        takeSnapshot(result.getName());
     }
 
     @Override
@@ -41,8 +43,8 @@ public class EventListener extends BaseTest implements ITestListener {
         logInfo(format("Test: %s - [PASSED]", result.getName()));
     }
 
-    private void takeSnapShot(String testName) {
-        this.driver = MyDriver.getInstance("").getDriver(); // Utiliza el Singleton de MyDriver
+    private void takeSnapshot(String testName) {
+        this.driver = MyDriver.getInstance("").getDriver(); // Use the Singleton instance of MyDriver
 
         if (driver instanceof TakesScreenshot) {
             File snapshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
@@ -54,11 +56,11 @@ public class EventListener extends BaseTest implements ITestListener {
                 folder.mkdirs();
             }
 
-            String snapShotName = formattedDate + ".png"; // Nombre de la imagen
+            String snapshotName = formattedDate + ".png"; // Image name
 
             try {
-                FileHandler.copy(snapshot, new File(folder, snapShotName));
-                logInfo("Snapshot saved in: " + testName + "/" + snapShotName);
+                FileHandler.copy(snapshot, new File(folder, snapshotName));
+                logInfo("Snapshot saved in: " + testName + "/" + snapshotName);
             } catch (IOException e) {
                 logInfo("Failed to capture and save the snapshot: " + e.getMessage());
             }

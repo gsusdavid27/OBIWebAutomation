@@ -7,7 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 /**
- * Esta página es para el inicio de sesión con SSO.
+ * This page is for Single Sign-On (SSO) login.
  */
 public class MicrosoftSSOPage extends BasePage {
 
@@ -28,10 +28,10 @@ public class MicrosoftSSOPage extends BasePage {
     }
 
     /**
-     * Realiza la autenticación SSO.
-     * @param username El nombre de usuario.
-     * @param password La contraseña.
-     * @return La página de lista de acuerdos.
+     * Perform Single Sign-On (SSO) authentication.
+     * @param username The username.
+     * @param password The password.
+     * @return The AgreementListPage.
      */
     public AgreementListPage doSSO(String username, String password) {
         getWait().until(ExpectedConditions.elementToBeClickable(userInput));
