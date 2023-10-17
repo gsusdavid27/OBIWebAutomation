@@ -350,3 +350,1477 @@
 22:48:34.447 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
 22:48:34.448 [main] INFO  org.example.InfoReporter - TEST-> Complete Forms
 22:48:34.727 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [PASSED]
+09:51:57.253 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+09:51:57.268 [main] INFO  org.example.InfoReporter - Browser: chrome
+09:51:57.271 [main] INFO  org.example.InfoReporter - Setting up the browser
+09:52:13.000 [main] ERROR org.example.InfoReporter - Error initializing WebDriver: Unable to obtain: Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}, error Command failed with code: 65, executed: [--browser, chrome, --output, json]
+error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json): error trying to connect: dns error: No such host is known. (os error 11001)
+Build info: version: '4.12.0', revision: '249f2a7d1b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: driver.version: MyDriver
+09:52:13.065 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+09:52:13.065 [main] WARN  org.example.InfoReporter - Test: accessToAgreementListTest - [SKIPPED]
+09:52:13.074 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+09:52:13.076 [main] WARN  org.example.InfoReporter - Test: changeToCreateAgreementTest - [SKIPPED]
+09:52:13.078 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [Starting...]
+09:52:13.079 [main] WARN  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [SKIPPED]
+09:52:13.080 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+09:52:13.080 [main] WARN  org.example.InfoReporter - Test: fillAllFields - [SKIPPED]
+09:52:13.083 [main] INFO  org.example.InfoReporter - Setting up the browser
+09:52:13.084 [main] WARN  org.example.InfoReporter - Stopped -> Invalid browser: 
+09:52:13.084 [main] ERROR org.example.InfoReporter - Error initializing WebDriver: Invalid browser: 
+09:53:28.369 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+09:53:28.391 [main] INFO  org.example.InfoReporter - Browser: chrome
+09:53:28.398 [main] INFO  org.example.InfoReporter - Setting up the browser
+09:53:42.999 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+09:53:43.009 [main] INFO  org.example.InfoReporter - Browser: chrome
+09:53:43.012 [main] INFO  org.example.InfoReporter - Setting up the browser
+09:54:22.081 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+09:54:22.090 [main] INFO  org.example.InfoReporter - Browser: chrome
+09:54:22.102 [main] INFO  org.example.InfoReporter - Setting up the browser
+09:56:21.899 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+09:56:21.929 [main] INFO  org.example.InfoReporter - Browser: chrome
+09:56:21.934 [main] INFO  org.example.InfoReporter - Setting up the browser
+09:56:29.645 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+09:56:29.648 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+09:57:12.386 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+09:57:12.443 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+09:57:12.446 [main] INFO  org.example.InfoReporter - TEST-> Correct Access to OBI
+09:57:12.446 [main] INFO  org.example.InfoReporter - Loading Wait...
+09:57:32.072 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [FAIL]
+09:57:32.406 [main] INFO  org.example.InfoReporter - Snapshot saved in: accessToAgreementListTest/2023-10-16_09-57-32.png
+09:57:32.429 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+09:57:32.434 [main] WARN  org.example.InfoReporter - Test: changeToCreateAgreementTest - [SKIPPED]
+09:57:32.437 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [Starting...]
+09:57:32.438 [main] WARN  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [SKIPPED]
+09:57:32.438 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+09:57:32.438 [main] WARN  org.example.InfoReporter - Test: fillAllFields - [SKIPPED]
+09:57:57.425 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+09:57:57.435 [main] INFO  org.example.InfoReporter - Browser: chrome
+09:57:57.438 [main] INFO  org.example.InfoReporter - Setting up the browser
+09:58:05.026 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+09:58:05.033 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+09:59:29.299 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+09:59:29.332 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+09:59:29.332 [main] INFO  org.example.InfoReporter - TEST-> Correct Access to OBI
+09:59:29.332 [main] INFO  org.example.InfoReporter - Loading Wait...
+09:59:42.747 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [PASSED]
+09:59:42.757 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+09:59:43.016 [main] INFO  org.example.InfoReporter - Loading Wait...
+09:59:44.273 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+09:59:44.273 [main] INFO  org.example.InfoReporter - TEST-> Click on Create New Agreement
+09:59:44.293 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [PASSED]
+09:59:44.294 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [Starting...]
+09:59:44.502 [main] INFO  org.example.InfoReporter - TEST-> End To End - System Call - CustomerByMADCode
+09:59:44.671 [main] INFO  org.example.InfoReporter - Loading Wait...
+09:59:47.552 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [PASSED]
+09:59:47.552 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+09:59:47.552 [main] INFO  org.example.InfoReporter - TEST-> Complete Forms
+09:59:48.532 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [PASSED]
+13:04:30.430 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+13:04:30.440 [main] INFO  org.example.InfoReporter - Browser: chrome
+13:04:30.443 [main] INFO  org.example.InfoReporter - Setting up the browser
+13:04:35.749 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+13:04:35.753 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+13:04:47.454 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+13:04:47.477 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+13:04:47.479 [main] INFO  org.example.InfoReporter - TEST-> Correct Access to OBI
+13:04:47.479 [main] INFO  org.example.InfoReporter - Loading Wait...
+13:04:54.623 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [PASSED]
+13:04:54.626 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+13:04:54.748 [main] INFO  org.example.InfoReporter - Loading Wait...
+13:04:55.388 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+13:04:55.390 [main] INFO  org.example.InfoReporter - TEST-> Click on Create New Agreement
+13:04:55.400 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [PASSED]
+13:04:55.401 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [Starting...]
+13:04:55.500 [main] INFO  org.example.InfoReporter - TEST-> End To End - System Call - CustomerByMADCode
+13:04:55.570 [main] INFO  org.example.InfoReporter - Loading Wait...
+13:04:56.718 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [PASSED]
+13:04:56.719 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+13:04:56.720 [main] INFO  org.example.InfoReporter - TEST-> Complete Forms
+13:04:57.033 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [PASSED]
+13:05:11.560 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+13:05:11.570 [main] INFO  org.example.InfoReporter - Browser: chrome
+13:05:11.574 [main] INFO  org.example.InfoReporter - Setting up the browser
+13:05:16.117 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+13:05:16.120 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+13:05:28.945 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+13:05:28.967 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+13:05:28.968 [main] INFO  org.example.InfoReporter - TEST-> Correct Access to OBI
+13:05:28.969 [main] INFO  org.example.InfoReporter - Loading Wait...
+13:05:39.122 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [PASSED]
+13:05:39.125 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+13:05:39.228 [main] INFO  org.example.InfoReporter - Loading Wait...
+13:05:39.830 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+13:05:39.833 [main] INFO  org.example.InfoReporter - TEST-> Click on Create New Agreement
+13:05:39.846 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [PASSED]
+13:05:39.848 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [Starting...]
+13:05:39.953 [main] INFO  org.example.InfoReporter - TEST-> End To End - System Call - CustomerByMADCode
+13:05:40.028 [main] INFO  org.example.InfoReporter - Loading Wait...
+13:05:41.220 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [PASSED]
+13:05:41.222 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+13:05:41.223 [main] INFO  org.example.InfoReporter - TEST-> Complete Forms
+13:05:41.561 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [PASSED]
+13:08:40.867 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+13:08:40.872 [main] INFO  org.example.InfoReporter - Browser: chrome
+13:08:40.874 [main] INFO  org.example.InfoReporter - Setting up the browser
+13:08:43.958 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+13:08:43.960 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+13:08:51.615 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+13:08:51.615 [main] WARN  org.example.InfoReporter - Test: accessToAgreementListTest - [SKIPPED]
+13:08:51.619 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+13:08:51.619 [main] WARN  org.example.InfoReporter - Test: changeToCreateAgreementTest - [SKIPPED]
+13:08:51.620 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [Starting...]
+13:08:51.622 [main] WARN  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [SKIPPED]
+13:08:51.622 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+13:08:51.623 [main] WARN  org.example.InfoReporter - Test: fillAllFields - [SKIPPED]
+13:09:23.556 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+13:09:23.560 [main] INFO  org.example.InfoReporter - Browser: chrome
+13:09:23.562 [main] INFO  org.example.InfoReporter - Setting up the browser
+13:09:26.483 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+13:09:26.486 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+13:09:38.187 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+13:09:38.208 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+13:09:38.209 [main] INFO  org.example.InfoReporter - TEST-> Correct Access to OBI
+13:09:38.209 [main] INFO  org.example.InfoReporter - Loading Wait...
+13:09:44.346 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [PASSED]
+13:09:44.349 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+13:09:44.454 [main] INFO  org.example.InfoReporter - Loading Wait...
+13:09:45.645 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+13:09:45.646 [main] INFO  org.example.InfoReporter - TEST-> Click on Create New Agreement
+13:09:45.653 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [PASSED]
+13:09:45.654 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [Starting...]
+13:09:45.743 [main] INFO  org.example.InfoReporter - TEST-> End To End - System Call - CustomerByMADCode
+13:09:45.809 [main] INFO  org.example.InfoReporter - Loading Wait...
+13:09:46.972 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [PASSED]
+13:09:46.974 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+13:09:46.974 [main] INFO  org.example.InfoReporter - TEST-> Complete Forms
+13:09:47.267 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [PASSED]
+13:10:01.595 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+13:10:01.605 [main] INFO  org.example.InfoReporter - Browser: firefox
+13:10:01.608 [main] INFO  org.example.InfoReporter - Setting up the browser
+13:10:27.846 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+13:10:27.847 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+13:11:32.169 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+13:11:32.177 [main] INFO  org.example.InfoReporter - Browser: firefox
+13:11:32.179 [main] INFO  org.example.InfoReporter - Setting up the browser
+13:11:37.305 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+13:11:37.306 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+13:12:13.639 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+13:12:13.639 [main] WARN  org.example.InfoReporter - Test: accessToAgreementListTest - [SKIPPED]
+13:12:13.644 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+13:12:13.644 [main] WARN  org.example.InfoReporter - Test: changeToCreateAgreementTest - [SKIPPED]
+13:12:13.645 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [Starting...]
+13:12:13.645 [main] WARN  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [SKIPPED]
+13:12:13.646 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+13:12:13.647 [main] WARN  org.example.InfoReporter - Test: fillAllFields - [SKIPPED]
+13:12:49.053 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+13:12:49.060 [main] INFO  org.example.InfoReporter - Browser: firefox
+13:12:49.063 [main] INFO  org.example.InfoReporter - Setting up the browser
+13:12:54.828 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+13:12:54.830 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+13:14:05.783 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+13:14:05.788 [main] INFO  org.example.InfoReporter - Browser: chrome
+13:14:05.790 [main] INFO  org.example.InfoReporter - Setting up the browser
+13:14:09.149 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+13:14:09.152 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+13:14:18.858 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+13:14:18.880 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+13:14:18.880 [main] INFO  org.example.InfoReporter - TEST-> Correct Access to OBI
+13:14:18.881 [main] INFO  org.example.InfoReporter - Loading Wait...
+13:14:25.423 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [PASSED]
+13:14:25.427 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+13:14:25.530 [main] INFO  org.example.InfoReporter - Loading Wait...
+13:14:26.129 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+13:14:26.132 [main] INFO  org.example.InfoReporter - TEST-> Click on Create New Agreement
+13:14:26.146 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [PASSED]
+13:14:26.149 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [Starting...]
+13:14:26.245 [main] INFO  org.example.InfoReporter - TEST-> End To End - System Call - CustomerByMADCode
+13:14:26.333 [main] INFO  org.example.InfoReporter - Loading Wait...
+13:14:27.462 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [PASSED]
+13:14:27.463 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+13:14:27.463 [main] INFO  org.example.InfoReporter - TEST-> Complete Forms
+13:14:27.758 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [PASSED]
+13:14:37.860 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+13:14:37.868 [main] INFO  org.example.InfoReporter - Browser: firefox
+13:14:37.870 [main] INFO  org.example.InfoReporter - Setting up the browser
+13:14:44.173 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+13:14:44.175 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+13:15:42.791 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+13:15:42.814 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+13:15:42.816 [main] INFO  org.example.InfoReporter - TEST-> Correct Access to OBI
+13:15:42.817 [main] INFO  org.example.InfoReporter - Loading Wait...
+13:15:45.805 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [PASSED]
+13:15:45.809 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+13:15:46.084 [main] INFO  org.example.InfoReporter - Loading Wait...
+13:15:46.645 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+13:15:46.647 [main] INFO  org.example.InfoReporter - TEST-> Click on Create New Agreement
+13:15:46.651 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [PASSED]
+13:15:46.652 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [Starting...]
+13:15:46.692 [main] INFO  org.example.InfoReporter - TEST-> End To End - System Call - CustomerByMADCode
+13:15:46.937 [main] INFO  org.example.InfoReporter - Loading Wait...
+13:15:48.033 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [PASSED]
+13:15:48.035 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+13:15:48.035 [main] INFO  org.example.InfoReporter - TEST-> Complete Forms
+13:15:48.393 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [PASSED]
+13:16:04.537 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+13:16:04.542 [main] INFO  org.example.InfoReporter - Browser: firefox
+13:16:04.544 [main] INFO  org.example.InfoReporter - Setting up the browser
+13:16:09.791 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+13:16:09.794 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+13:17:20.551 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+13:17:20.571 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+13:17:20.571 [main] INFO  org.example.InfoReporter - TEST-> Correct Access to OBI
+13:17:20.571 [main] INFO  org.example.InfoReporter - Loading Wait...
+13:17:22.874 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [PASSED]
+13:17:22.878 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+13:17:23.130 [main] INFO  org.example.InfoReporter - Loading Wait...
+13:17:23.690 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+13:17:23.693 [main] INFO  org.example.InfoReporter - TEST-> Click on Create New Agreement
+13:17:23.700 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [PASSED]
+13:17:23.703 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [Starting...]
+13:17:23.745 [main] INFO  org.example.InfoReporter - TEST-> End To End - System Call - CustomerByMADCode
+13:17:23.992 [main] INFO  org.example.InfoReporter - Loading Wait...
+13:17:25.110 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [PASSED]
+13:17:25.111 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+13:17:25.112 [main] INFO  org.example.InfoReporter - TEST-> Complete Forms
+13:17:25.468 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [PASSED]
+13:18:22.982 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+13:18:22.994 [main] INFO  org.example.InfoReporter - Browser: edge
+13:18:22.997 [main] INFO  org.example.InfoReporter - Setting up the browser
+13:18:39.004 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+13:18:39.007 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+13:18:57.408 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+13:18:57.408 [main] WARN  org.example.InfoReporter - Test: accessToAgreementListTest - [SKIPPED]
+13:18:57.411 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+13:18:57.413 [main] WARN  org.example.InfoReporter - Test: changeToCreateAgreementTest - [SKIPPED]
+13:18:57.413 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [Starting...]
+13:18:57.414 [main] WARN  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [SKIPPED]
+13:18:57.414 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+13:18:57.415 [main] WARN  org.example.InfoReporter - Test: fillAllFields - [SKIPPED]
+13:19:07.027 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+13:19:07.036 [main] INFO  org.example.InfoReporter - Browser: edge
+13:19:07.038 [main] INFO  org.example.InfoReporter - Setting up the browser
+13:19:11.452 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+13:19:11.454 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+13:19:24.389 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+13:19:24.413 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+13:19:24.415 [main] INFO  org.example.InfoReporter - TEST-> Correct Access to OBI
+13:19:24.416 [main] INFO  org.example.InfoReporter - Loading Wait...
+13:19:35.236 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [PASSED]
+13:19:35.239 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+13:19:35.356 [main] INFO  org.example.InfoReporter - Loading Wait...
+13:19:36.003 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+13:19:36.004 [main] INFO  org.example.InfoReporter - TEST-> Click on Create New Agreement
+13:19:36.132 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [PASSED]
+13:19:36.134 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [Starting...]
+13:19:36.285 [main] INFO  org.example.InfoReporter - TEST-> End To End - System Call - CustomerByMADCode
+13:19:36.408 [main] INFO  org.example.InfoReporter - Loading Wait...
+13:19:37.574 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [PASSED]
+13:19:37.575 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+13:19:37.576 [main] INFO  org.example.InfoReporter - TEST-> Complete Forms
+13:19:38.004 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [PASSED]
+13:20:40.411 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+13:20:40.421 [main] INFO  org.example.InfoReporter - Browser: edge
+13:20:40.424 [main] INFO  org.example.InfoReporter - Setting up the browser
+13:20:43.945 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+13:20:43.948 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+13:21:01.330 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+13:21:01.353 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+13:21:01.354 [main] INFO  org.example.InfoReporter - TEST-> Correct Access to OBI
+13:21:01.355 [main] INFO  org.example.InfoReporter - Loading Wait...
+13:21:05.307 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [FAIL]
+13:21:05.571 [main] INFO  org.example.InfoReporter - Snapshot saved in: accessToAgreementListTest/2023-10-16_13-21-05.png
+13:21:05.585 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+13:21:05.586 [main] WARN  org.example.InfoReporter - Test: changeToCreateAgreementTest - [SKIPPED]
+13:21:05.588 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [Starting...]
+13:21:05.596 [main] WARN  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [SKIPPED]
+13:21:05.597 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+13:21:05.597 [main] WARN  org.example.InfoReporter - Test: fillAllFields - [SKIPPED]
+13:21:16.207 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+13:21:16.217 [main] INFO  org.example.InfoReporter - Browser: edge
+13:21:16.221 [main] INFO  org.example.InfoReporter - Setting up the browser
+13:21:20.824 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+13:21:20.828 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+13:21:38.838 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+13:21:38.839 [main] WARN  org.example.InfoReporter - Test: accessToAgreementListTest - [SKIPPED]
+13:21:38.843 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+13:21:38.844 [main] WARN  org.example.InfoReporter - Test: changeToCreateAgreementTest - [SKIPPED]
+13:21:38.845 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [Starting...]
+13:21:38.845 [main] WARN  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [SKIPPED]
+13:21:38.847 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+13:21:38.847 [main] WARN  org.example.InfoReporter - Test: fillAllFields - [SKIPPED]
+13:21:48.131 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+13:21:48.140 [main] INFO  org.example.InfoReporter - Browser: edge
+13:21:48.143 [main] INFO  org.example.InfoReporter - Setting up the browser
+13:21:52.643 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+13:21:52.645 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+13:22:12.159 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+13:22:12.159 [main] WARN  org.example.InfoReporter - Test: accessToAgreementListTest - [SKIPPED]
+13:22:12.162 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+13:22:12.162 [main] WARN  org.example.InfoReporter - Test: changeToCreateAgreementTest - [SKIPPED]
+13:22:12.163 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [Starting...]
+13:22:12.163 [main] WARN  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [SKIPPED]
+13:22:12.165 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+13:22:12.165 [main] WARN  org.example.InfoReporter - Test: fillAllFields - [SKIPPED]
+13:27:51.529 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+13:27:51.536 [main] INFO  org.example.InfoReporter - Browser: edge
+13:27:51.538 [main] INFO  org.example.InfoReporter - Setting up the browser
+13:27:54.902 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+13:27:54.904 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+13:28:09.358 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+13:28:09.387 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+13:28:09.387 [main] INFO  org.example.InfoReporter - TEST-> Correct Access to OBI
+13:28:09.388 [main] INFO  org.example.InfoReporter - Loading Wait...
+13:28:20.028 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [PASSED]
+13:28:20.032 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+13:28:20.147 [main] INFO  org.example.InfoReporter - Loading Wait...
+13:28:20.839 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+13:28:20.840 [main] INFO  org.example.InfoReporter - TEST-> Click on Create New Agreement
+13:28:20.850 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [PASSED]
+13:28:20.851 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [Starting...]
+13:28:20.970 [main] INFO  org.example.InfoReporter - TEST-> End To End - System Call - CustomerByMADCode
+13:28:21.067 [main] INFO  org.example.InfoReporter - Loading Wait...
+13:28:22.203 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [PASSED]
+13:28:22.204 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+13:28:22.204 [main] INFO  org.example.InfoReporter - TEST-> Complete Forms
+13:28:22.633 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [PASSED]
+13:29:33.373 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+13:29:33.382 [main] INFO  org.example.InfoReporter - Browser: firefox
+13:29:33.385 [main] INFO  org.example.InfoReporter - Setting up the browser
+13:29:40.122 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+13:29:40.124 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+13:32:50.954 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+13:32:50.955 [main] WARN  org.example.InfoReporter - Test: accessToAgreementListTest - [SKIPPED]
+13:32:50.958 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+13:32:50.958 [main] WARN  org.example.InfoReporter - Test: changeToCreateAgreementTest - [SKIPPED]
+13:32:50.959 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [Starting...]
+13:32:50.960 [main] WARN  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [SKIPPED]
+13:32:50.960 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+13:32:50.961 [main] WARN  org.example.InfoReporter - Test: fillAllFields - [SKIPPED]
+13:37:36.851 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+13:37:36.856 [main] INFO  org.example.InfoReporter - Browser: firefox
+13:37:36.859 [main] INFO  org.example.InfoReporter - Setting up the browser
+13:37:42.044 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+13:37:42.046 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+13:37:49.867 [main] INFO  org.example.InfoReporter - Loading Wait...
+13:38:03.456 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+13:38:03.456 [main] WARN  org.example.InfoReporter - Test: accessToAgreementListTest - [SKIPPED]
+13:38:03.460 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+13:38:03.461 [main] WARN  org.example.InfoReporter - Test: changeToCreateAgreementTest - [SKIPPED]
+13:38:03.461 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [Starting...]
+13:38:03.461 [main] WARN  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [SKIPPED]
+13:38:03.462 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+13:38:03.462 [main] WARN  org.example.InfoReporter - Test: fillAllFields - [SKIPPED]
+13:50:30.311 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+13:50:30.323 [main] INFO  org.example.InfoReporter - Browser: chrome
+13:50:30.325 [main] INFO  org.example.InfoReporter - Setting up the browser
+13:50:38.790 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+13:50:38.798 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+13:50:45.442 [main] INFO  org.example.InfoReporter - Loading Wait...
+13:51:01.285 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+13:51:01.307 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+13:51:01.308 [main] INFO  org.example.InfoReporter - TEST-> Correct Access to OBI
+13:51:01.308 [main] INFO  org.example.InfoReporter - Loading Wait...
+13:51:46.649 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+13:51:46.656 [main] INFO  org.example.InfoReporter - Browser: chrome
+13:51:46.658 [main] INFO  org.example.InfoReporter - Setting up the browser
+13:51:50.315 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+13:51:50.318 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+13:52:01.838 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+13:52:01.868 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+13:52:01.869 [main] INFO  org.example.InfoReporter - TEST-> Correct Access to OBI
+13:52:01.869 [main] INFO  org.example.InfoReporter - Loading Wait...
+13:52:08.916 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [PASSED]
+13:52:08.919 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+13:52:09.025 [main] INFO  org.example.InfoReporter - Loading Wait...
+13:52:09.606 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+13:52:09.608 [main] INFO  org.example.InfoReporter - TEST-> Click on Create New Agreement
+13:52:09.617 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [PASSED]
+13:52:09.618 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [Starting...]
+13:52:09.711 [main] INFO  org.example.InfoReporter - TEST-> End To End - System Call - CustomerByMADCode
+13:52:09.773 [main] INFO  org.example.InfoReporter - Loading Wait...
+13:52:11.450 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [PASSED]
+13:52:11.451 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+13:52:11.451 [main] INFO  org.example.InfoReporter - TEST-> Complete Forms
+13:52:11.751 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [PASSED]
+15:04:08.824 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+15:04:08.830 [main] INFO  org.example.InfoReporter - Browser: chrome
+15:04:08.832 [main] INFO  org.example.InfoReporter - Setting up the browser
+15:04:15.283 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+15:04:15.289 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+15:04:53.960 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+15:04:53.960 [main] WARN  org.example.InfoReporter - Test: accessToAgreementListTest - [SKIPPED]
+15:04:53.965 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+15:04:53.965 [main] WARN  org.example.InfoReporter - Test: changeToCreateAgreementTest - [SKIPPED]
+15:04:53.966 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [Starting...]
+15:04:53.967 [main] WARN  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [SKIPPED]
+15:04:53.968 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+15:04:53.968 [main] WARN  org.example.InfoReporter - Test: fillAllFields - [SKIPPED]
+15:05:01.575 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+15:05:01.580 [main] INFO  org.example.InfoReporter - Browser: chrome
+15:05:01.582 [main] INFO  org.example.InfoReporter - Setting up the browser
+15:05:04.498 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+15:05:04.500 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+15:06:12.196 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+15:06:12.202 [main] INFO  org.example.InfoReporter - Browser: chrome
+15:06:12.204 [main] INFO  org.example.InfoReporter - Setting up the browser
+15:06:15.435 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+15:06:15.436 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+15:08:43.014 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+15:08:43.020 [main] INFO  org.example.InfoReporter - Browser: chrome
+15:08:43.021 [main] INFO  org.example.InfoReporter - Setting up the browser
+15:08:46.263 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+15:08:46.266 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+15:08:56.617 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+15:08:56.617 [main] WARN  org.example.InfoReporter - Test: accessToAgreementListTest - [SKIPPED]
+15:08:56.621 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+15:08:56.621 [main] WARN  org.example.InfoReporter - Test: changeToCreateAgreementTest - [SKIPPED]
+15:08:56.622 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [Starting...]
+15:08:56.622 [main] WARN  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [SKIPPED]
+15:08:56.624 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+15:08:56.625 [main] WARN  org.example.InfoReporter - Test: fillAllFields - [SKIPPED]
+15:09:08.131 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+15:09:08.136 [main] INFO  org.example.InfoReporter - Browser: chrome
+15:09:08.138 [main] INFO  org.example.InfoReporter - Setting up the browser
+15:09:11.391 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+15:09:11.393 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+15:09:23.269 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+15:09:23.287 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+15:09:23.287 [main] INFO  org.example.InfoReporter - TEST-> Correct Access to OBI
+15:09:23.287 [main] INFO  org.example.InfoReporter - Loading Wait...
+15:09:30.658 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [PASSED]
+15:09:30.660 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+15:09:30.762 [main] INFO  org.example.InfoReporter - Loading Wait...
+15:09:31.853 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+15:09:31.854 [main] INFO  org.example.InfoReporter - TEST-> Click on Create New Agreement
+15:09:31.861 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [PASSED]
+15:09:31.863 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [Starting...]
+15:09:31.969 [main] INFO  org.example.InfoReporter - TEST-> End To End - System Call - CustomerByMADCode
+15:09:32.044 [main] INFO  org.example.InfoReporter - Loading Wait...
+15:09:33.733 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [PASSED]
+15:09:33.734 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+15:09:33.734 [main] INFO  org.example.InfoReporter - TEST-> Complete Forms
+15:09:34.054 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [PASSED]
+16:26:00.234 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+16:26:00.240 [main] INFO  org.example.InfoReporter - Browser: chrome
+16:26:00.241 [main] INFO  org.example.InfoReporter - Setting up the browser
+16:26:04.134 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+16:26:04.157 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [Starting...]
+16:26:04.161 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+16:26:16.911 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+16:26:16.913 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [PASSED]
+16:26:16.916 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+16:26:16.916 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+16:26:16.916 [main] INFO  org.example.InfoReporter - TEST-> Correct Access to OBI
+16:26:16.917 [main] INFO  org.example.InfoReporter - Loading Wait...
+16:26:24.007 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [PASSED]
+16:26:24.009 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+16:26:24.133 [main] INFO  org.example.InfoReporter - Loading Wait...
+16:26:25.333 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+16:26:25.334 [main] INFO  org.example.InfoReporter - TEST-> Click on Create New Agreement
+16:26:25.342 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [PASSED]
+16:26:25.343 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [Starting...]
+16:26:25.455 [main] INFO  org.example.InfoReporter - TEST-> End To End - System Call - CustomerByMADCode
+16:26:25.546 [main] INFO  org.example.InfoReporter - Loading Wait...
+16:26:27.248 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [PASSED]
+16:26:27.249 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+16:26:27.249 [main] INFO  org.example.InfoReporter - TEST-> Complete Forms
+16:26:27.597 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [PASSED]
+18:43:34.860 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+18:43:34.866 [main] INFO  org.example.InfoReporter - Browser: chrome
+18:43:34.868 [main] INFO  org.example.InfoReporter - Setting up the browser
+18:43:39.236 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+18:43:39.257 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [Starting...]
+18:43:39.259 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+18:43:51.601 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+18:43:51.604 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [PASSED]
+18:43:51.610 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+18:43:51.612 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+18:43:51.613 [main] INFO  org.example.InfoReporter - TEST-> Correct Access to OBI
+18:43:51.614 [main] INFO  org.example.InfoReporter - Loading Wait...
+18:44:02.358 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [PASSED]
+18:44:02.362 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+18:44:02.486 [main] INFO  org.example.InfoReporter - Loading Wait...
+18:44:03.073 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+18:44:03.074 [main] INFO  org.example.InfoReporter - TEST-> Click on Create New Agreement
+18:44:03.082 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [PASSED]
+18:44:03.084 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [Starting...]
+18:44:03.177 [main] INFO  org.example.InfoReporter - TEST-> End To End - System Call - CustomerByMADCode
+18:44:03.244 [main] INFO  org.example.InfoReporter - Loading Wait...
+18:44:04.905 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [PASSED]
+18:44:04.907 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+18:44:04.907 [main] INFO  org.example.InfoReporter - TEST-> Complete Forms
+18:44:05.277 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [PASSED]
+21:05:46.391 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+21:05:46.398 [main] INFO  org.example.InfoReporter - Browser: chrome
+21:05:46.400 [main] INFO  org.example.InfoReporter - Setting up the browser
+21:05:50.552 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+21:05:50.567 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [Starting...]
+21:05:50.571 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+21:06:08.586 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+21:06:08.587 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [PASSED]
+21:06:08.589 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+21:06:08.589 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+21:06:08.591 [main] INFO  org.example.InfoReporter - TEST-> Correct Access to OBI
+21:06:08.591 [main] INFO  org.example.InfoReporter - Loading Wait...
+21:06:17.145 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [PASSED]
+21:06:17.147 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+21:06:17.265 [main] INFO  org.example.InfoReporter - Loading Wait...
+21:06:18.884 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+21:06:18.886 [main] INFO  org.example.InfoReporter - TEST-> Click on Create New Agreement
+21:06:18.894 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [PASSED]
+21:06:18.895 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [Starting...]
+21:06:19.007 [main] INFO  org.example.InfoReporter - TEST-> End To End - System Call - CustomerByMADCode
+21:06:19.093 [main] INFO  org.example.InfoReporter - Loading Wait...
+21:06:21.858 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [PASSED]
+21:06:21.859 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+21:06:21.859 [main] INFO  org.example.InfoReporter - TEST-> Complete Forms
+21:06:22.389 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [PASSED]
+21:06:22.392 [main] INFO  org.example.InfoReporter - Test: pressCreateButton - [Starting...]
+21:06:22.392 [main] INFO  org.example.InfoReporter - TEST-> Creating Agreement
+21:06:52.783 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+21:06:52.791 [main] INFO  org.example.InfoReporter - Browser: chrome
+21:06:52.795 [main] INFO  org.example.InfoReporter - Setting up the browser
+21:06:57.425 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+21:06:57.458 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [Starting...]
+21:06:57.462 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+21:07:13.661 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+21:07:13.664 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [PASSED]
+21:07:13.667 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+21:07:13.667 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+21:07:13.668 [main] INFO  org.example.InfoReporter - TEST-> Correct Access to OBI
+21:07:13.668 [main] INFO  org.example.InfoReporter - Loading Wait...
+21:07:22.088 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [PASSED]
+21:07:22.089 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+21:07:22.201 [main] INFO  org.example.InfoReporter - Loading Wait...
+21:07:23.295 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+21:07:23.296 [main] INFO  org.example.InfoReporter - TEST-> Click on Create New Agreement
+21:07:23.305 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [PASSED]
+21:07:23.306 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [Starting...]
+21:07:23.403 [main] INFO  org.example.InfoReporter - TEST-> End To End - System Call - CustomerByMADCode
+21:07:23.483 [main] INFO  org.example.InfoReporter - Loading Wait...
+21:07:25.177 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [PASSED]
+21:07:25.178 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+21:07:25.178 [main] INFO  org.example.InfoReporter - TEST-> Complete Forms
+21:07:25.720 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [PASSED]
+21:07:25.722 [main] INFO  org.example.InfoReporter - Test: pressCreateButton - [Starting...]
+21:07:25.722 [main] INFO  org.example.InfoReporter - TEST-> Creating Agreement
+21:07:27.953 [main] INFO  org.example.InfoReporter - Test: pressCreateButton - [PASSED]
+21:14:15.951 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+21:14:15.956 [main] INFO  org.example.InfoReporter - Browser: chrome
+21:14:15.957 [main] INFO  org.example.InfoReporter - Setting up the browser
+21:14:19.144 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+21:14:19.164 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [Starting...]
+21:14:19.168 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+21:14:37.287 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+21:14:37.289 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [PASSED]
+21:14:37.291 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+21:14:37.291 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+21:14:37.291 [main] INFO  org.example.InfoReporter - TEST-> Correct Access to OBI
+21:14:37.292 [main] INFO  org.example.InfoReporter - Loading Wait...
+21:14:44.625 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [PASSED]
+21:14:44.627 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+21:14:44.733 [main] INFO  org.example.InfoReporter - Loading Wait...
+21:14:45.841 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+21:14:45.843 [main] INFO  org.example.InfoReporter - TEST-> Click on Create New Agreement
+21:14:45.851 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [PASSED]
+21:14:45.853 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [Starting...]
+21:14:45.946 [main] INFO  org.example.InfoReporter - TEST-> End To End - System Call - CustomerByMADCode
+21:14:46.021 [main] INFO  org.example.InfoReporter - Loading Wait...
+21:14:47.710 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [PASSED]
+21:14:47.711 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+21:14:47.711 [main] INFO  org.example.InfoReporter - TEST-> Complete Forms
+21:14:48.085 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [PASSED]
+21:14:48.087 [main] INFO  org.example.InfoReporter - Test: pressCreateButton - [Starting...]
+21:14:48.087 [main] INFO  org.example.InfoReporter - TEST-> Creating Agreement
+21:14:49.816 [main] INFO  org.example.InfoReporter - Test: pressCreateButton - [PASSED]
+00:36:21.567 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+00:36:21.582 [main] INFO  org.example.InfoReporter - Browser: chrome
+00:36:21.585 [main] INFO  org.example.InfoReporter - Setting up the browser
+00:36:29.132 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+00:36:29.184 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [Starting...]
+00:36:29.189 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+00:36:46.365 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+00:36:46.367 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [PASSED]
+00:36:46.372 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+00:36:46.372 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+00:36:46.373 [main] INFO  org.example.InfoReporter - TEST-> Correct Access to OBI
+00:36:46.373 [main] INFO  org.example.InfoReporter - Loading Wait...
+00:37:13.766 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+00:37:13.776 [main] INFO  org.example.InfoReporter - Browser: chrome
+00:37:13.780 [main] INFO  org.example.InfoReporter - Setting up the browser
+00:37:18.683 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+00:37:18.710 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [Starting...]
+00:37:18.714 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+00:37:37.260 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+00:37:37.262 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [PASSED]
+00:37:37.266 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+00:37:37.266 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+00:37:37.266 [main] INFO  org.example.InfoReporter - TEST-> Correct Access to OBI
+00:37:37.266 [main] INFO  org.example.InfoReporter - Loading Wait...
+00:37:46.751 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [PASSED]
+00:37:46.755 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+00:37:46.915 [main] INFO  org.example.InfoReporter - Loading Wait...
+00:37:47.549 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+00:37:47.552 [main] INFO  org.example.InfoReporter - TEST-> Click on Create New Agreement
+00:37:47.563 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [PASSED]
+00:37:47.565 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [Starting...]
+00:37:47.697 [main] INFO  org.example.InfoReporter - TEST-> End To End - System Call - CustomerByMADCode
+00:37:47.796 [main] INFO  org.example.InfoReporter - Loading Wait...
+00:37:50.049 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [PASSED]
+00:37:50.050 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+00:37:50.050 [main] INFO  org.example.InfoReporter - TEST-> Complete Forms
+00:37:50.653 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [PASSED]
+00:37:50.656 [main] INFO  org.example.InfoReporter - Test: pressCreateButton - [Starting...]
+00:37:50.657 [main] INFO  org.example.InfoReporter - TEST-> Creating Agreement
+00:37:56.069 [main] INFO  org.example.InfoReporter - Test: pressCreateButton - [PASSED]
+00:37:56.071 [main] INFO  org.example.InfoReporter - Test: accessToProgramCreation - [Starting...]
+00:37:56.073 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+00:38:01.994 [main] INFO  org.example.InfoReporter - Test: accessToProgramCreation - [PASSED]
+00:38:01.995 [main] INFO  org.example.InfoReporter - Test: fillProgramFields - [Starting...]
+00:38:03.097 [main] INFO  org.example.InfoReporter - Test: fillProgramFields - [FAIL]
+00:38:03.286 [main] INFO  org.example.InfoReporter - New Bug Folder Created: fillProgramFields
+00:38:03.294 [main] INFO  org.example.InfoReporter - Snapshot saved in: fillProgramFields/2023-10-17_00-38-03.png
+00:39:26.292 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+00:39:26.304 [main] INFO  org.example.InfoReporter - Browser: chrome
+00:39:26.308 [main] INFO  org.example.InfoReporter - Setting up the browser
+00:39:31.915 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+00:39:31.951 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [Starting...]
+00:39:31.957 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+00:39:50.242 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+00:39:50.244 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [PASSED]
+00:39:50.250 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+00:39:50.250 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+00:39:50.251 [main] INFO  org.example.InfoReporter - TEST-> Correct Access to OBI
+00:39:50.251 [main] INFO  org.example.InfoReporter - Loading Wait...
+00:40:02.737 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [PASSED]
+00:40:02.739 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+00:40:02.875 [main] INFO  org.example.InfoReporter - Loading Wait...
+00:40:03.997 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+00:40:04.000 [main] INFO  org.example.InfoReporter - TEST-> Click on Create New Agreement
+00:40:04.008 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [PASSED]
+00:40:04.011 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [Starting...]
+00:40:04.139 [main] INFO  org.example.InfoReporter - TEST-> End To End - System Call - CustomerByMADCode
+00:40:04.258 [main] INFO  org.example.InfoReporter - Loading Wait...
+00:40:05.944 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [PASSED]
+00:40:05.946 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+00:40:05.946 [main] INFO  org.example.InfoReporter - TEST-> Complete Forms
+00:40:06.485 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [PASSED]
+00:40:06.488 [main] INFO  org.example.InfoReporter - Test: pressCreateButton - [Starting...]
+00:40:06.488 [main] INFO  org.example.InfoReporter - TEST-> Creating Agreement
+00:40:09.767 [main] INFO  org.example.InfoReporter - Test: pressCreateButton - [PASSED]
+00:40:09.768 [main] INFO  org.example.InfoReporter - Test: accessToProgramCreation - [Starting...]
+00:40:09.770 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+00:40:13.989 [main] INFO  org.example.InfoReporter - Test: accessToProgramCreation - [PASSED]
+00:40:13.991 [main] INFO  org.example.InfoReporter - Test: fillProgramFields - [Starting...]
+00:40:13.991 [main] INFO  org.example.InfoReporter - Loading Wait...
+00:40:15.408 [main] INFO  org.example.InfoReporter - Test: fillProgramFields - [FAIL]
+00:40:15.586 [main] INFO  org.example.InfoReporter - Snapshot saved in: fillProgramFields/2023-10-17_00-40-15.png
+00:44:33.084 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+00:44:33.095 [main] INFO  org.example.InfoReporter - Browser: chrome
+00:44:33.099 [main] INFO  org.example.InfoReporter - Setting up the browser
+00:44:38.052 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+00:44:38.099 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [Starting...]
+00:44:38.109 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+00:44:53.365 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+00:44:53.367 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [PASSED]
+00:44:53.369 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+00:44:53.371 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+00:44:53.371 [main] INFO  org.example.InfoReporter - TEST-> Correct Access to OBI
+00:44:53.371 [main] INFO  org.example.InfoReporter - Loading Wait...
+00:45:02.823 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [PASSED]
+00:45:02.827 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+00:45:02.946 [main] INFO  org.example.InfoReporter - Loading Wait...
+00:45:04.653 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+00:45:04.655 [main] INFO  org.example.InfoReporter - TEST-> Click on Create New Agreement
+00:45:04.662 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [PASSED]
+00:45:04.663 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [Starting...]
+00:45:04.762 [main] INFO  org.example.InfoReporter - TEST-> End To End - System Call - CustomerByMADCode
+00:45:04.852 [main] INFO  org.example.InfoReporter - Loading Wait...
+00:45:07.050 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [PASSED]
+00:45:07.051 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+00:45:07.051 [main] INFO  org.example.InfoReporter - TEST-> Complete Forms
+00:45:07.575 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [PASSED]
+00:45:07.577 [main] INFO  org.example.InfoReporter - Test: pressCreateButton - [Starting...]
+00:45:07.578 [main] INFO  org.example.InfoReporter - TEST-> Creating Agreement
+00:45:10.500 [main] INFO  org.example.InfoReporter - Test: pressCreateButton - [PASSED]
+00:45:10.501 [main] INFO  org.example.InfoReporter - Test: accessToProgramCreation - [Starting...]
+00:45:10.508 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+00:45:15.471 [main] INFO  org.example.InfoReporter - Test: accessToProgramCreation - [PASSED]
+00:45:15.472 [main] INFO  org.example.InfoReporter - Test: fillProgramFields - [Starting...]
+00:45:15.472 [main] INFO  org.example.InfoReporter - Loading Wait...
+00:45:20.634 [main] INFO  org.example.InfoReporter - Test: fillProgramFields - [FAIL]
+00:45:20.836 [main] INFO  org.example.InfoReporter - Snapshot saved in: fillProgramFields/2023-10-17_00-45-20.png
+00:48:32.501 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+00:48:32.511 [main] INFO  org.example.InfoReporter - Browser: chrome
+00:48:32.514 [main] INFO  org.example.InfoReporter - Setting up the browser
+00:48:37.884 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+00:48:37.920 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [Starting...]
+00:48:37.925 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+00:48:57.177 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+00:48:57.180 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [PASSED]
+00:48:57.187 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+00:48:57.188 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+00:48:57.188 [main] INFO  org.example.InfoReporter - TEST-> Correct Access to OBI
+00:48:57.189 [main] INFO  org.example.InfoReporter - Loading Wait...
+00:49:06.492 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [PASSED]
+00:49:06.495 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+00:49:06.626 [main] INFO  org.example.InfoReporter - Loading Wait...
+00:49:08.314 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+00:49:08.314 [main] INFO  org.example.InfoReporter - TEST-> Click on Create New Agreement
+00:49:08.321 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [PASSED]
+00:49:08.324 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [Starting...]
+00:49:08.433 [main] INFO  org.example.InfoReporter - TEST-> End To End - System Call - CustomerByMADCode
+00:49:08.510 [main] INFO  org.example.InfoReporter - Loading Wait...
+00:49:10.172 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [PASSED]
+00:49:10.174 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+00:49:10.174 [main] INFO  org.example.InfoReporter - TEST-> Complete Forms
+00:49:10.775 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [PASSED]
+00:49:10.777 [main] INFO  org.example.InfoReporter - Test: pressCreateButton - [Starting...]
+00:49:10.777 [main] INFO  org.example.InfoReporter - TEST-> Creating Agreement
+00:49:15.105 [main] INFO  org.example.InfoReporter - Test: pressCreateButton - [PASSED]
+00:49:15.106 [main] INFO  org.example.InfoReporter - Test: accessToProgramCreation - [Starting...]
+00:49:15.108 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+00:49:19.876 [main] INFO  org.example.InfoReporter - Test: accessToProgramCreation - [PASSED]
+00:49:19.878 [main] INFO  org.example.InfoReporter - Test: fillProgramFields - [Starting...]
+00:49:19.878 [main] INFO  org.example.InfoReporter - Loading Wait...
+00:49:21.578 [main] INFO  org.example.InfoReporter - Test: fillProgramFields - [FAIL]
+00:49:21.795 [main] INFO  org.example.InfoReporter - Snapshot saved in: fillProgramFields/2023-10-17_00-49-21.png
+00:55:30.340 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+00:55:30.351 [main] INFO  org.example.InfoReporter - Browser: chrome
+00:55:30.354 [main] INFO  org.example.InfoReporter - Setting up the browser
+00:55:35.754 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+00:55:35.816 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [Starting...]
+00:55:35.821 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+00:55:53.813 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+00:55:53.815 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [PASSED]
+00:55:53.818 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+00:55:53.818 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+00:55:53.820 [main] INFO  org.example.InfoReporter - TEST-> Correct Access to OBI
+00:55:53.820 [main] INFO  org.example.InfoReporter - Loading Wait...
+00:56:10.953 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [FAIL]
+00:56:11.118 [main] INFO  org.example.InfoReporter - Snapshot saved in: accessToAgreementListTest/2023-10-17_00-56-11.png
+00:56:11.124 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+00:56:11.125 [main] WARN  org.example.InfoReporter - Test: changeToCreateAgreementTest - [SKIPPED]
+00:56:11.126 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [Starting...]
+00:56:11.126 [main] WARN  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [SKIPPED]
+00:56:11.127 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+00:56:11.127 [main] WARN  org.example.InfoReporter - Test: fillAllFields - [SKIPPED]
+00:56:11.129 [main] INFO  org.example.InfoReporter - Test: pressCreateButton - [Starting...]
+00:56:11.129 [main] WARN  org.example.InfoReporter - Test: pressCreateButton - [SKIPPED]
+00:56:11.130 [main] INFO  org.example.InfoReporter - Test: accessToProgramCreation - [Starting...]
+00:56:11.132 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+00:56:26.154 [main] INFO  org.example.InfoReporter - Test: accessToProgramCreation - [FAIL]
+00:56:26.356 [main] INFO  org.example.InfoReporter - New Bug Folder Created: accessToProgramCreation
+00:56:26.363 [main] INFO  org.example.InfoReporter - Snapshot saved in: accessToProgramCreation/2023-10-17_00-56-26.png
+00:56:26.367 [main] INFO  org.example.InfoReporter - Test: fillProgramFields - [Starting...]
+00:56:26.367 [main] WARN  org.example.InfoReporter - Test: fillProgramFields - [SKIPPED]
+00:57:08.829 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+00:57:08.842 [main] INFO  org.example.InfoReporter - Browser: chrome
+00:57:08.846 [main] INFO  org.example.InfoReporter - Setting up the browser
+00:57:14.552 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+00:57:14.592 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [Starting...]
+00:57:14.600 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+00:57:29.186 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+00:57:29.188 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [PASSED]
+00:57:29.193 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+00:57:29.194 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+00:57:29.194 [main] INFO  org.example.InfoReporter - TEST-> Correct Access to OBI
+00:57:29.195 [main] INFO  org.example.InfoReporter - Loading Wait...
+00:57:36.004 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [PASSED]
+00:57:36.007 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+00:57:36.175 [main] INFO  org.example.InfoReporter - Loading Wait...
+00:57:36.907 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+00:57:36.910 [main] INFO  org.example.InfoReporter - TEST-> Click on Create New Agreement
+00:57:36.920 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [PASSED]
+00:57:36.922 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [Starting...]
+00:57:37.068 [main] INFO  org.example.InfoReporter - TEST-> End To End - System Call - CustomerByMADCode
+00:57:37.184 [main] INFO  org.example.InfoReporter - Loading Wait...
+00:57:38.395 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [PASSED]
+00:57:38.398 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+00:57:38.398 [main] INFO  org.example.InfoReporter - TEST-> Complete Forms
+00:57:39.013 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [PASSED]
+00:57:39.016 [main] INFO  org.example.InfoReporter - Test: pressCreateButton - [Starting...]
+00:57:39.016 [main] INFO  org.example.InfoReporter - TEST-> Creating Agreement
+00:57:40.753 [main] INFO  org.example.InfoReporter - Test: pressCreateButton - [PASSED]
+00:57:40.755 [main] INFO  org.example.InfoReporter - Test: accessToProgramCreation - [Starting...]
+00:57:40.757 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+00:57:43.549 [main] INFO  org.example.InfoReporter - Test: accessToProgramCreation - [PASSED]
+00:57:43.551 [main] INFO  org.example.InfoReporter - Test: fillProgramFields - [Starting...]
+00:57:43.551 [main] INFO  org.example.InfoReporter - Loading Wait...
+00:57:45.149 [main] INFO  org.example.InfoReporter - Test: fillProgramFields - [FAIL]
+00:57:45.360 [main] INFO  org.example.InfoReporter - Snapshot saved in: fillProgramFields/2023-10-17_00-57-45.png
+01:01:03.422 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+01:01:03.437 [main] INFO  org.example.InfoReporter - Browser: chrome
+01:01:03.441 [main] INFO  org.example.InfoReporter - Setting up the browser
+01:01:08.998 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+01:01:09.045 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [Starting...]
+01:01:09.053 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:01:23.721 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:01:23.724 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [PASSED]
+01:01:23.728 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+01:01:23.729 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:01:23.729 [main] INFO  org.example.InfoReporter - TEST-> Correct Access to OBI
+01:01:23.729 [main] INFO  org.example.InfoReporter - Loading Wait...
+01:01:31.129 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [PASSED]
+01:01:31.134 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+01:01:31.254 [main] INFO  org.example.InfoReporter - Loading Wait...
+01:01:31.846 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:01:31.848 [main] INFO  org.example.InfoReporter - TEST-> Click on Create New Agreement
+01:01:31.855 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [PASSED]
+01:01:31.857 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [Starting...]
+01:01:31.972 [main] INFO  org.example.InfoReporter - TEST-> End To End - System Call - CustomerByMADCode
+01:01:32.078 [main] INFO  org.example.InfoReporter - Loading Wait...
+01:01:33.778 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [PASSED]
+01:01:33.780 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+01:01:33.780 [main] INFO  org.example.InfoReporter - TEST-> Complete Forms
+01:01:34.332 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [PASSED]
+01:01:34.333 [main] INFO  org.example.InfoReporter - Test: pressCreateButton - [Starting...]
+01:01:34.334 [main] INFO  org.example.InfoReporter - TEST-> Creating Agreement
+01:01:36.080 [main] INFO  org.example.InfoReporter - Test: pressCreateButton - [PASSED]
+01:01:36.082 [main] INFO  org.example.InfoReporter - Test: accessToProgramCreation - [Starting...]
+01:01:36.084 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:01:38.716 [main] INFO  org.example.InfoReporter - Test: accessToProgramCreation - [PASSED]
+01:01:38.717 [main] INFO  org.example.InfoReporter - Test: fillProgramFields - [Starting...]
+01:01:38.717 [main] INFO  org.example.InfoReporter - Loading Wait...
+01:01:40.326 [main] INFO  org.example.InfoReporter - Test: fillProgramFields - [FAIL]
+01:01:40.574 [main] INFO  org.example.InfoReporter - Snapshot saved in: fillProgramFields/2023-10-17_01-01-40.png
+01:04:24.565 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+01:04:24.574 [main] INFO  org.example.InfoReporter - Browser: chrome
+01:04:24.577 [main] INFO  org.example.InfoReporter - Setting up the browser
+01:04:29.050 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+01:04:29.100 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [Starting...]
+01:04:29.112 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:04:42.198 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:04:42.200 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [PASSED]
+01:04:42.205 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+01:04:42.206 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:04:42.206 [main] INFO  org.example.InfoReporter - TEST-> Correct Access to OBI
+01:04:42.207 [main] INFO  org.example.InfoReporter - Loading Wait...
+01:04:49.369 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [PASSED]
+01:04:49.371 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+01:04:49.480 [main] INFO  org.example.InfoReporter - Loading Wait...
+01:04:50.582 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:04:50.585 [main] INFO  org.example.InfoReporter - TEST-> Click on Create New Agreement
+01:04:50.593 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [PASSED]
+01:04:50.594 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [Starting...]
+01:04:50.702 [main] INFO  org.example.InfoReporter - TEST-> End To End - System Call - CustomerByMADCode
+01:04:50.782 [main] INFO  org.example.InfoReporter - Loading Wait...
+01:04:52.425 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [PASSED]
+01:04:52.427 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+01:04:52.427 [main] INFO  org.example.InfoReporter - TEST-> Complete Forms
+01:04:52.808 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [PASSED]
+01:04:52.810 [main] INFO  org.example.InfoReporter - Test: pressCreateButton - [Starting...]
+01:04:52.810 [main] INFO  org.example.InfoReporter - TEST-> Creating Agreement
+01:04:55.025 [main] INFO  org.example.InfoReporter - Test: pressCreateButton - [PASSED]
+01:04:55.026 [main] INFO  org.example.InfoReporter - Test: accessToProgramCreation - [Starting...]
+01:04:55.028 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:04:57.669 [main] INFO  org.example.InfoReporter - Test: accessToProgramCreation - [PASSED]
+01:04:57.670 [main] INFO  org.example.InfoReporter - Test: fillProgramFields - [Starting...]
+01:04:57.671 [main] INFO  org.example.InfoReporter - Loading Wait...
+01:05:13.824 [main] INFO  org.example.InfoReporter - Test: fillProgramFields - [FAIL]
+01:05:14.126 [main] INFO  org.example.InfoReporter - Snapshot saved in: fillProgramFields/2023-10-17_01-05-14.png
+01:11:39.463 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+01:11:39.472 [main] INFO  org.example.InfoReporter - Browser: chrome
+01:11:39.475 [main] INFO  org.example.InfoReporter - Setting up the browser
+01:11:45.167 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+01:11:45.223 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [Starting...]
+01:11:45.230 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:12:01.937 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:12:01.940 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [PASSED]
+01:12:01.944 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+01:12:01.944 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:12:01.944 [main] INFO  org.example.InfoReporter - TEST-> Correct Access to OBI
+01:12:01.945 [main] INFO  org.example.InfoReporter - Loading Wait...
+01:12:08.656 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [PASSED]
+01:12:08.658 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+01:12:08.777 [main] INFO  org.example.InfoReporter - Loading Wait...
+01:12:09.939 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:12:09.940 [main] INFO  org.example.InfoReporter - TEST-> Click on Create New Agreement
+01:12:09.948 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [PASSED]
+01:12:09.950 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [Starting...]
+01:12:10.069 [main] INFO  org.example.InfoReporter - TEST-> End To End - System Call - CustomerByMADCode
+01:12:10.162 [main] INFO  org.example.InfoReporter - Loading Wait...
+01:12:11.875 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [PASSED]
+01:12:11.877 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+01:12:11.877 [main] INFO  org.example.InfoReporter - TEST-> Complete Forms
+01:12:12.291 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [PASSED]
+01:12:12.292 [main] INFO  org.example.InfoReporter - Test: pressCreateButton - [Starting...]
+01:12:12.293 [main] INFO  org.example.InfoReporter - TEST-> Creating Agreement
+01:12:14.511 [main] INFO  org.example.InfoReporter - Test: pressCreateButton - [PASSED]
+01:12:14.512 [main] INFO  org.example.InfoReporter - Test: accessToProgramCreation - [Starting...]
+01:12:14.517 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:12:17.737 [main] INFO  org.example.InfoReporter - Test: accessToProgramCreation - [PASSED]
+01:12:17.738 [main] INFO  org.example.InfoReporter - Test: fillProgramFields - [Starting...]
+01:12:17.739 [main] INFO  org.example.InfoReporter - Loading Wait...
+01:12:18.875 [main] INFO  org.example.InfoReporter - Test: fillProgramFields - [FAIL]
+01:12:19.021 [main] INFO  org.example.InfoReporter - Snapshot saved in: fillProgramFields/2023-10-17_01-12-19.png
+01:14:22.985 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+01:14:22.995 [main] INFO  org.example.InfoReporter - Browser: chrome
+01:14:22.997 [main] INFO  org.example.InfoReporter - Setting up the browser
+01:14:27.590 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+01:14:27.635 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [Starting...]
+01:14:27.640 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:14:42.519 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:14:42.521 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [PASSED]
+01:14:42.524 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+01:14:42.524 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:14:42.525 [main] INFO  org.example.InfoReporter - TEST-> Correct Access to OBI
+01:14:42.525 [main] INFO  org.example.InfoReporter - Loading Wait...
+01:14:49.304 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [PASSED]
+01:14:49.306 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+01:14:49.422 [main] INFO  org.example.InfoReporter - Loading Wait...
+01:14:50.056 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:14:50.057 [main] INFO  org.example.InfoReporter - TEST-> Click on Create New Agreement
+01:14:50.067 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [PASSED]
+01:14:50.068 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [Starting...]
+01:14:50.181 [main] INFO  org.example.InfoReporter - TEST-> End To End - System Call - CustomerByMADCode
+01:14:50.390 [main] INFO  org.example.InfoReporter - Loading Wait...
+01:14:51.541 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [PASSED]
+01:14:51.542 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+01:14:51.542 [main] INFO  org.example.InfoReporter - TEST-> Complete Forms
+01:14:52.075 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [PASSED]
+01:14:52.076 [main] INFO  org.example.InfoReporter - Test: pressCreateButton - [Starting...]
+01:14:52.077 [main] INFO  org.example.InfoReporter - TEST-> Creating Agreement
+01:14:53.814 [main] INFO  org.example.InfoReporter - Test: pressCreateButton - [PASSED]
+01:14:53.815 [main] INFO  org.example.InfoReporter - Test: accessToProgramCreation - [Starting...]
+01:14:53.816 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:14:56.598 [main] INFO  org.example.InfoReporter - Test: accessToProgramCreation - [PASSED]
+01:14:56.599 [main] INFO  org.example.InfoReporter - Test: fillProgramFields - [Starting...]
+01:14:56.599 [main] INFO  org.example.InfoReporter - Loading Wait...
+01:14:57.842 [main] INFO  org.example.InfoReporter - Test: fillProgramFields - [FAIL]
+01:14:58.032 [main] INFO  org.example.InfoReporter - Snapshot saved in: fillProgramFields/2023-10-17_01-14-58.png
+01:25:25.688 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+01:25:25.697 [main] INFO  org.example.InfoReporter - Browser: chrome
+01:25:25.701 [main] INFO  org.example.InfoReporter - Setting up the browser
+01:25:30.121 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+01:25:30.157 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [Starting...]
+01:25:30.162 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:25:44.327 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:25:44.329 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [PASSED]
+01:25:44.332 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+01:25:44.332 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:25:44.333 [main] INFO  org.example.InfoReporter - TEST-> Correct Access to OBI
+01:25:44.333 [main] INFO  org.example.InfoReporter - Loading Wait...
+01:25:53.303 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [PASSED]
+01:25:53.308 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+01:25:53.447 [main] INFO  org.example.InfoReporter - Loading Wait...
+01:25:54.569 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:25:54.572 [main] INFO  org.example.InfoReporter - TEST-> Click on Create New Agreement
+01:25:54.581 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [PASSED]
+01:25:54.582 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [Starting...]
+01:25:54.728 [main] INFO  org.example.InfoReporter - TEST-> End To End - System Call - CustomerByMADCode
+01:25:54.824 [main] INFO  org.example.InfoReporter - Loading Wait...
+01:25:56.559 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [PASSED]
+01:25:56.560 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+01:25:56.561 [main] INFO  org.example.InfoReporter - TEST-> Complete Forms
+01:25:57.099 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [PASSED]
+01:25:57.100 [main] INFO  org.example.InfoReporter - Test: pressCreateButton - [Starting...]
+01:25:57.100 [main] INFO  org.example.InfoReporter - TEST-> Creating Agreement
+01:25:59.862 [main] INFO  org.example.InfoReporter - Test: pressCreateButton - [PASSED]
+01:25:59.863 [main] INFO  org.example.InfoReporter - Test: accessToProgramCreation - [Starting...]
+01:25:59.866 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:26:04.105 [main] INFO  org.example.InfoReporter - Test: accessToProgramCreation - [PASSED]
+01:26:04.106 [main] INFO  org.example.InfoReporter - Test: fillProgramFields - [Starting...]
+01:26:04.107 [main] INFO  org.example.InfoReporter - Loading Wait...
+01:26:10.498 [main] INFO  org.example.InfoReporter - Test: fillProgramFields - [PASSED]
+01:27:21.912 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+01:27:21.919 [main] INFO  org.example.InfoReporter - Browser: chrome
+01:27:21.921 [main] INFO  org.example.InfoReporter - Setting up the browser
+01:27:26.230 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+01:27:26.269 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [Starting...]
+01:27:26.274 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:27:45.387 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:27:45.389 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [PASSED]
+01:27:45.393 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+01:27:45.393 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:27:45.394 [main] INFO  org.example.InfoReporter - TEST-> Correct Access to OBI
+01:27:45.394 [main] INFO  org.example.InfoReporter - Loading Wait...
+01:27:52.884 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [PASSED]
+01:27:52.887 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+01:27:53.081 [main] INFO  org.example.InfoReporter - Loading Wait...
+01:27:54.292 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:27:54.296 [main] INFO  org.example.InfoReporter - TEST-> Click on Create New Agreement
+01:27:54.301 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [PASSED]
+01:27:54.302 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [Starting...]
+01:27:54.393 [main] INFO  org.example.InfoReporter - TEST-> End To End - System Call - CustomerByMADCode
+01:27:54.475 [main] INFO  org.example.InfoReporter - Loading Wait...
+01:27:55.586 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [PASSED]
+01:27:55.586 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+01:27:55.588 [main] INFO  org.example.InfoReporter - TEST-> Complete Forms
+01:27:56.088 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [PASSED]
+01:27:56.091 [main] INFO  org.example.InfoReporter - Test: pressCreateButton - [Starting...]
+01:27:56.091 [main] INFO  org.example.InfoReporter - TEST-> Creating Agreement
+01:27:57.805 [main] INFO  org.example.InfoReporter - Test: pressCreateButton - [PASSED]
+01:27:57.808 [main] INFO  org.example.InfoReporter - Test: accessToProgramCreation - [Starting...]
+01:27:57.811 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:28:00.642 [main] INFO  org.example.InfoReporter - Test: accessToProgramCreation - [PASSED]
+01:28:00.644 [main] INFO  org.example.InfoReporter - Test: fillProgramFields - [Starting...]
+01:28:00.644 [main] INFO  org.example.InfoReporter - Loading Wait...
+01:28:03.257 [main] INFO  org.example.InfoReporter - Test: fillProgramFields - [FAIL]
+01:28:03.497 [main] INFO  org.example.InfoReporter - Snapshot saved in: fillProgramFields/2023-10-17_01-28-03.png
+01:32:49.103 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+01:32:49.180 [main] INFO  org.example.InfoReporter - Browser: chrome
+01:32:49.188 [main] INFO  org.example.InfoReporter - Setting up the browser
+01:32:54.520 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+01:32:54.568 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [Starting...]
+01:32:54.580 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:33:11.058 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:33:11.060 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [PASSED]
+01:33:11.064 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+01:33:11.065 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:33:11.065 [main] INFO  org.example.InfoReporter - TEST-> Correct Access to OBI
+01:33:11.065 [main] INFO  org.example.InfoReporter - Loading Wait...
+01:33:18.728 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [PASSED]
+01:33:18.731 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+01:33:19.008 [main] INFO  org.example.InfoReporter - Loading Wait...
+01:33:19.726 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:33:19.727 [main] INFO  org.example.InfoReporter - TEST-> Click on Create New Agreement
+01:33:19.737 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [PASSED]
+01:33:19.738 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [Starting...]
+01:33:19.861 [main] INFO  org.example.InfoReporter - TEST-> End To End - System Call - CustomerByMADCode
+01:33:19.960 [main] INFO  org.example.InfoReporter - Loading Wait...
+01:33:23.277 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [PASSED]
+01:33:23.278 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+01:33:23.278 [main] INFO  org.example.InfoReporter - TEST-> Complete Forms
+01:33:23.817 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [PASSED]
+01:33:23.819 [main] INFO  org.example.InfoReporter - Test: pressCreateButton - [Starting...]
+01:33:23.819 [main] INFO  org.example.InfoReporter - TEST-> Creating Agreement
+01:33:28.684 [main] INFO  org.example.InfoReporter - Test: pressCreateButton - [PASSED]
+01:33:28.685 [main] INFO  org.example.InfoReporter - Test: accessToProgramCreation - [Starting...]
+01:33:28.687 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:33:34.511 [main] INFO  org.example.InfoReporter - Test: accessToProgramCreation - [PASSED]
+01:33:34.515 [main] INFO  org.example.InfoReporter - Test: fillProgramFields - [Starting...]
+01:33:34.515 [main] INFO  org.example.InfoReporter - Loading Wait...
+01:33:37.213 [main] INFO  org.example.InfoReporter - Test: fillProgramFields - [FAIL]
+01:33:37.478 [main] INFO  org.example.InfoReporter - Snapshot saved in: fillProgramFields/2023-10-17_01-33-37.png
+01:40:34.666 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+01:40:34.671 [main] INFO  org.example.InfoReporter - Browser: chrome
+01:40:34.673 [main] INFO  org.example.InfoReporter - Setting up the browser
+01:40:38.962 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+01:40:38.979 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [Starting...]
+01:40:38.983 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:40:51.026 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [FAIL]
+01:40:51.363 [main] INFO  org.example.InfoReporter - New Bug Folder Created: loginToApplication
+01:40:51.370 [main] INFO  org.example.InfoReporter - Snapshot saved in: loginToApplication/2023-10-17_01-40-51.png
+01:40:51.380 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+01:40:51.382 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:40:51.382 [main] INFO  org.example.InfoReporter - TEST-> Correct Access to OBI
+01:40:51.383 [main] INFO  org.example.InfoReporter - Loading Wait...
+01:41:09.323 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+01:41:09.331 [main] INFO  org.example.InfoReporter - Browser: chrome
+01:41:09.334 [main] INFO  org.example.InfoReporter - Setting up the browser
+01:41:12.598 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+01:41:12.623 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [Starting...]
+01:41:12.626 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:41:21.198 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+01:41:21.204 [main] INFO  org.example.InfoReporter - Browser: chrome
+01:41:21.206 [main] INFO  org.example.InfoReporter - Setting up the browser
+01:41:24.237 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+01:41:24.257 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [Starting...]
+01:41:24.262 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:41:33.553 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [FAIL]
+01:41:34.003 [main] INFO  org.example.InfoReporter - Snapshot saved in: loginToApplication/2023-10-17_01-41-33.png
+01:41:34.015 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+01:41:34.017 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:41:34.018 [main] INFO  org.example.InfoReporter - TEST-> Correct Access to OBI
+01:41:34.018 [main] INFO  org.example.InfoReporter - Loading Wait...
+01:41:49.222 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [FAIL]
+01:41:49.630 [main] INFO  org.example.InfoReporter - Snapshot saved in: accessToAgreementListTest/2023-10-17_01-41-49.png
+01:41:49.635 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+01:41:49.635 [main] WARN  org.example.InfoReporter - Test: changeToCreateAgreementTest - [SKIPPED]
+01:41:49.636 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [Starting...]
+01:41:49.638 [main] WARN  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [SKIPPED]
+01:41:49.638 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+01:41:49.639 [main] WARN  org.example.InfoReporter - Test: fillAllFields - [SKIPPED]
+01:41:49.639 [main] INFO  org.example.InfoReporter - Test: pressCreateButton - [Starting...]
+01:41:49.639 [main] WARN  org.example.InfoReporter - Test: pressCreateButton - [SKIPPED]
+01:41:49.641 [main] INFO  org.example.InfoReporter - Test: accessToProgramCreation - [Starting...]
+01:41:49.643 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:42:01.723 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+01:42:01.733 [main] INFO  org.example.InfoReporter - Browser: chrome
+01:42:01.736 [main] INFO  org.example.InfoReporter - Setting up the browser
+01:42:05.609 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+01:42:05.638 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [Starting...]
+01:42:05.642 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:42:19.197 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:42:19.199 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [PASSED]
+01:42:19.203 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+01:42:19.203 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:42:19.204 [main] INFO  org.example.InfoReporter - TEST-> Correct Access to OBI
+01:42:19.204 [main] INFO  org.example.InfoReporter - Loading Wait...
+01:42:26.463 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [PASSED]
+01:42:26.465 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+01:42:26.568 [main] INFO  org.example.InfoReporter - Loading Wait...
+01:42:27.221 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:42:27.222 [main] INFO  org.example.InfoReporter - TEST-> Click on Create New Agreement
+01:42:27.228 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [PASSED]
+01:42:27.229 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [Starting...]
+01:42:27.316 [main] INFO  org.example.InfoReporter - TEST-> End To End - System Call - CustomerByMADCode
+01:42:27.383 [main] INFO  org.example.InfoReporter - Loading Wait...
+01:42:29.599 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [PASSED]
+01:42:29.600 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+01:42:29.601 [main] INFO  org.example.InfoReporter - TEST-> Complete Forms
+01:42:30.043 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [PASSED]
+01:42:30.047 [main] INFO  org.example.InfoReporter - Test: pressCreateButton - [Starting...]
+01:42:30.047 [main] INFO  org.example.InfoReporter - TEST-> Creating Agreement
+01:42:31.806 [main] INFO  org.example.InfoReporter - Test: pressCreateButton - [PASSED]
+01:42:31.808 [main] INFO  org.example.InfoReporter - Test: accessToProgramCreation - [Starting...]
+01:42:31.809 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:42:35.553 [main] INFO  org.example.InfoReporter - Test: accessToProgramCreation - [PASSED]
+01:42:35.554 [main] INFO  org.example.InfoReporter - Test: fillProgramFields - [Starting...]
+01:42:35.554 [main] INFO  org.example.InfoReporter - Loading Wait...
+01:42:39.553 [main] INFO  org.example.InfoReporter - Test: fillProgramFields - [FAIL]
+01:42:39.774 [main] INFO  org.example.InfoReporter - Snapshot saved in: fillProgramFields/2023-10-17_01-42-39.png
+01:50:07.699 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+01:50:07.708 [main] INFO  org.example.InfoReporter - Browser: chrome
+01:50:07.710 [main] INFO  org.example.InfoReporter - Setting up the browser
+01:50:12.458 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+01:50:12.488 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [Starting...]
+01:50:12.494 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:50:25.461 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:50:25.463 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [PASSED]
+01:50:25.467 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+01:50:25.467 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:50:25.468 [main] INFO  org.example.InfoReporter - TEST-> Correct Access to OBI
+01:50:25.468 [main] INFO  org.example.InfoReporter - Loading Wait...
+01:50:32.881 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [PASSED]
+01:50:32.884 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+01:50:32.991 [main] INFO  org.example.InfoReporter - Loading Wait...
+01:50:33.553 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:50:33.555 [main] INFO  org.example.InfoReporter - TEST-> Click on Create New Agreement
+01:50:33.563 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [PASSED]
+01:50:33.565 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [Starting...]
+01:50:33.684 [main] INFO  org.example.InfoReporter - TEST-> End To End - System Call - CustomerByMADCode
+01:50:33.787 [main] INFO  org.example.InfoReporter - Loading Wait...
+01:50:35.476 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [PASSED]
+01:50:35.477 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+01:50:35.477 [main] INFO  org.example.InfoReporter - TEST-> Complete Forms
+01:50:35.912 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [PASSED]
+01:50:35.913 [main] INFO  org.example.InfoReporter - Test: pressCreateButton - [Starting...]
+01:50:35.914 [main] INFO  org.example.InfoReporter - TEST-> Creating Agreement
+01:50:37.656 [main] INFO  org.example.InfoReporter - Test: pressCreateButton - [PASSED]
+01:50:37.657 [main] INFO  org.example.InfoReporter - Test: accessToProgramCreation - [Starting...]
+01:50:37.659 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:50:40.457 [main] INFO  org.example.InfoReporter - Test: accessToProgramCreation - [PASSED]
+01:50:40.459 [main] INFO  org.example.InfoReporter - Test: fillProgramFields - [Starting...]
+01:50:40.459 [main] INFO  org.example.InfoReporter - Loading Wait...
+01:50:57.593 [main] INFO  org.example.InfoReporter - Test: fillProgramFields - [FAIL]
+01:50:57.752 [main] INFO  org.example.InfoReporter - Snapshot saved in: fillProgramFields/2023-10-17_01-50-57.png
+01:54:37.972 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+01:54:37.985 [main] INFO  org.example.InfoReporter - Browser: chrome
+01:54:37.990 [main] INFO  org.example.InfoReporter - Setting up the browser
+01:54:43.290 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+01:54:43.322 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [Starting...]
+01:54:43.327 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:55:10.018 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+01:55:10.028 [main] INFO  org.example.InfoReporter - Browser: chrome
+01:55:10.032 [main] INFO  org.example.InfoReporter - Setting up the browser
+01:55:15.095 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+01:55:15.146 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [Starting...]
+01:55:15.153 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:55:51.674 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [FAIL]
+01:55:52.129 [main] INFO  org.example.InfoReporter - Snapshot saved in: loginToApplication/2023-10-17_01-55-52.png
+01:55:52.141 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+01:55:52.142 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:55:52.144 [main] INFO  org.example.InfoReporter - TEST-> Correct Access to OBI
+01:55:52.144 [main] INFO  org.example.InfoReporter - Loading Wait...
+01:56:09.466 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+01:56:09.476 [main] INFO  org.example.InfoReporter - Browser: chrome
+01:56:09.479 [main] INFO  org.example.InfoReporter - Setting up the browser
+01:56:13.694 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+01:56:13.734 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [Starting...]
+01:56:13.740 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:56:34.827 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:56:34.829 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [PASSED]
+01:56:34.833 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+01:56:34.833 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:56:34.834 [main] INFO  org.example.InfoReporter - TEST-> Correct Access to OBI
+01:56:34.834 [main] INFO  org.example.InfoReporter - Loading Wait...
+01:56:42.258 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [PASSED]
+01:56:42.261 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+01:56:42.510 [main] INFO  org.example.InfoReporter - Loading Wait...
+01:56:44.152 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:56:44.154 [main] INFO  org.example.InfoReporter - TEST-> Click on Create New Agreement
+01:56:44.176 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [PASSED]
+01:56:44.179 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [Starting...]
+01:56:44.315 [main] INFO  org.example.InfoReporter - TEST-> End To End - System Call - CustomerByMADCode
+01:56:44.445 [main] INFO  org.example.InfoReporter - Loading Wait...
+01:56:46.156 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [PASSED]
+01:56:46.157 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+01:56:46.157 [main] INFO  org.example.InfoReporter - TEST-> Complete Forms
+01:56:46.672 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [PASSED]
+01:56:46.675 [main] INFO  org.example.InfoReporter - Test: pressCreateButton - [Starting...]
+01:56:46.675 [main] INFO  org.example.InfoReporter - TEST-> Creating Agreement
+01:56:48.984 [main] INFO  org.example.InfoReporter - Test: pressCreateButton - [PASSED]
+01:56:48.986 [main] INFO  org.example.InfoReporter - Test: accessToProgramCreation - [Starting...]
+01:56:48.989 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+01:56:52.740 [main] INFO  org.example.InfoReporter - Test: accessToProgramCreation - [PASSED]
+01:56:52.741 [main] INFO  org.example.InfoReporter - Test: fillProgramFields - [Starting...]
+01:56:52.741 [main] INFO  org.example.InfoReporter - Loading Wait...
+01:56:58.364 [main] INFO  org.example.InfoReporter - Test: fillProgramFields - [FAIL]
+01:56:58.581 [main] INFO  org.example.InfoReporter - Snapshot saved in: fillProgramFields/2023-10-17_01-56-58.png
+02:00:12.469 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+02:00:12.477 [main] INFO  org.example.InfoReporter - Browser: chrome
+02:00:12.480 [main] INFO  org.example.InfoReporter - Setting up the browser
+02:00:17.011 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+02:00:17.040 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [Starting...]
+02:00:17.045 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+02:00:31.663 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+02:00:31.665 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [PASSED]
+02:00:31.670 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+02:00:31.670 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+02:00:31.670 [main] INFO  org.example.InfoReporter - TEST-> Correct Access to OBI
+02:00:31.670 [main] INFO  org.example.InfoReporter - Loading Wait...
+02:00:38.744 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [PASSED]
+02:00:38.747 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+02:00:38.877 [main] INFO  org.example.InfoReporter - Loading Wait...
+02:00:39.578 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+02:00:39.581 [main] INFO  org.example.InfoReporter - TEST-> Click on Create New Agreement
+02:00:39.590 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [PASSED]
+02:00:39.592 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [Starting...]
+02:00:39.777 [main] INFO  org.example.InfoReporter - TEST-> End To End - System Call - CustomerByMADCode
+02:00:39.898 [main] INFO  org.example.InfoReporter - Loading Wait...
+02:00:44.865 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [PASSED]
+02:00:44.866 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+02:00:44.866 [main] INFO  org.example.InfoReporter - TEST-> Complete Forms
+02:00:45.391 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [PASSED]
+02:00:45.393 [main] INFO  org.example.InfoReporter - Test: pressCreateButton - [Starting...]
+02:00:45.393 [main] INFO  org.example.InfoReporter - TEST-> Creating Agreement
+02:00:48.183 [main] INFO  org.example.InfoReporter - Test: pressCreateButton - [PASSED]
+02:00:48.184 [main] INFO  org.example.InfoReporter - Test: accessToProgramCreation - [Starting...]
+02:00:48.186 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+02:00:53.443 [main] INFO  org.example.InfoReporter - Test: accessToProgramCreation - [PASSED]
+02:00:53.445 [main] INFO  org.example.InfoReporter - Test: fillProgramFields - [Starting...]
+02:00:53.445 [main] INFO  org.example.InfoReporter - Loading Wait...
+02:00:57.190 [main] INFO  org.example.InfoReporter - Test: fillProgramFields - [FAIL]
+02:00:57.399 [main] INFO  org.example.InfoReporter - Snapshot saved in: fillProgramFields/2023-10-17_02-00-57.png
+02:05:47.053 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+02:05:47.062 [main] INFO  org.example.InfoReporter - Browser: chrome
+02:05:47.065 [main] INFO  org.example.InfoReporter - Setting up the browser
+02:05:52.034 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+02:05:52.067 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [Starting...]
+02:05:52.071 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+02:06:06.795 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+02:06:06.798 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [PASSED]
+02:06:06.800 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+02:06:06.802 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+02:06:06.802 [main] INFO  org.example.InfoReporter - TEST-> Correct Access to OBI
+02:06:06.802 [main] INFO  org.example.InfoReporter - Loading Wait...
+02:06:14.120 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [PASSED]
+02:06:14.121 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+02:06:14.230 [main] INFO  org.example.InfoReporter - Loading Wait...
+02:06:14.894 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+02:06:14.896 [main] INFO  org.example.InfoReporter - TEST-> Click on Create New Agreement
+02:06:14.903 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [PASSED]
+02:06:14.903 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [Starting...]
+02:06:14.996 [main] INFO  org.example.InfoReporter - TEST-> End To End - System Call - CustomerByMADCode
+02:06:15.064 [main] INFO  org.example.InfoReporter - Loading Wait...
+02:06:16.751 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [PASSED]
+02:06:16.752 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+02:06:16.752 [main] INFO  org.example.InfoReporter - TEST-> Complete Forms
+02:06:17.293 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [PASSED]
+02:06:17.297 [main] INFO  org.example.InfoReporter - Test: pressCreateButton - [Starting...]
+02:06:17.297 [main] INFO  org.example.InfoReporter - TEST-> Creating Agreement
+02:06:20.066 [main] INFO  org.example.InfoReporter - Test: pressCreateButton - [PASSED]
+02:06:20.066 [main] INFO  org.example.InfoReporter - Test: accessToProgramCreation - [Starting...]
+02:06:20.068 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+02:06:26.399 [main] INFO  org.example.InfoReporter - Test: accessToProgramCreation - [PASSED]
+02:06:26.400 [main] INFO  org.example.InfoReporter - Test: fillProgramFields - [Starting...]
+02:06:26.401 [main] INFO  org.example.InfoReporter - Loading Wait...
+02:06:32.823 [main] INFO  org.example.InfoReporter - Test: fillProgramFields - [FAIL]
+02:06:33.036 [main] INFO  org.example.InfoReporter - Snapshot saved in: fillProgramFields/2023-10-17_02-06-33.png
+02:09:55.695 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+02:09:55.708 [main] INFO  org.example.InfoReporter - Browser: chrome
+02:09:55.712 [main] INFO  org.example.InfoReporter - Setting up the browser
+02:10:00.980 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+02:10:01.021 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [Starting...]
+02:10:01.026 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+02:10:14.201 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+02:10:14.203 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [PASSED]
+02:10:14.209 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+02:10:14.209 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+02:10:14.210 [main] INFO  org.example.InfoReporter - TEST-> Correct Access to OBI
+02:10:14.211 [main] INFO  org.example.InfoReporter - Loading Wait...
+02:10:21.321 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [PASSED]
+02:10:21.323 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+02:10:21.428 [main] INFO  org.example.InfoReporter - Loading Wait...
+02:10:22.514 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+02:10:22.517 [main] INFO  org.example.InfoReporter - TEST-> Click on Create New Agreement
+02:10:22.523 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [PASSED]
+02:10:22.524 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [Starting...]
+02:10:22.619 [main] INFO  org.example.InfoReporter - TEST-> End To End - System Call - CustomerByMADCode
+02:10:22.695 [main] INFO  org.example.InfoReporter - Loading Wait...
+02:10:24.389 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [PASSED]
+02:10:24.391 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+02:10:24.392 [main] INFO  org.example.InfoReporter - TEST-> Complete Forms
+02:10:24.893 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [PASSED]
+02:10:24.894 [main] INFO  org.example.InfoReporter - Test: pressCreateButton - [Starting...]
+02:10:24.895 [main] INFO  org.example.InfoReporter - TEST-> Creating Agreement
+02:10:27.161 [main] INFO  org.example.InfoReporter - Test: pressCreateButton - [PASSED]
+02:10:27.162 [main] INFO  org.example.InfoReporter - Test: accessToProgramCreation - [Starting...]
+02:10:27.165 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+02:10:31.401 [main] INFO  org.example.InfoReporter - Test: accessToProgramCreation - [PASSED]
+02:10:31.403 [main] INFO  org.example.InfoReporter - Test: fillProgramFields - [Starting...]
+02:10:31.404 [main] INFO  org.example.InfoReporter - Loading Wait...
+02:10:37.291 [main] INFO  org.example.InfoReporter - Test: fillProgramFields - [FAIL]
+02:10:37.500 [main] INFO  org.example.InfoReporter - Snapshot saved in: fillProgramFields/2023-10-17_02-10-37.png
+02:17:06.009 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+02:17:06.018 [main] INFO  org.example.InfoReporter - Browser: chrome
+02:17:06.022 [main] INFO  org.example.InfoReporter - Setting up the browser
+02:17:10.951 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+02:17:10.993 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [Starting...]
+02:17:10.999 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+02:17:33.116 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+02:17:33.118 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [PASSED]
+02:17:33.121 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+02:17:33.122 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+02:17:33.122 [main] INFO  org.example.InfoReporter - TEST-> Correct Access to OBI
+02:17:33.122 [main] INFO  org.example.InfoReporter - Loading Wait...
+02:17:40.413 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [PASSED]
+02:17:40.415 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+02:17:40.534 [main] INFO  org.example.InfoReporter - Loading Wait...
+02:17:41.679 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+02:17:41.681 [main] INFO  org.example.InfoReporter - TEST-> Click on Create New Agreement
+02:17:41.694 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [PASSED]
+02:17:41.696 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [Starting...]
+02:17:41.839 [main] INFO  org.example.InfoReporter - TEST-> End To End - System Call - CustomerByMADCode
+02:17:41.952 [main] INFO  org.example.InfoReporter - Loading Wait...
+02:17:57.233 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [PASSED]
+02:17:57.234 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+02:17:57.234 [main] INFO  org.example.InfoReporter - TEST-> Complete Forms
+02:17:57.606 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [PASSED]
+02:17:57.607 [main] INFO  org.example.InfoReporter - Test: pressCreateButton - [Starting...]
+02:17:57.608 [main] INFO  org.example.InfoReporter - TEST-> Creating Agreement
+02:17:59.816 [main] INFO  org.example.InfoReporter - Test: pressCreateButton - [PASSED]
+02:17:59.817 [main] INFO  org.example.InfoReporter - Test: accessToProgramCreation - [Starting...]
+02:17:59.819 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+02:18:12.056 [main] INFO  org.example.InfoReporter - Test: accessToProgramCreation - [PASSED]
+02:18:12.057 [main] INFO  org.example.InfoReporter - Test: fillProgramFields - [Starting...]
+02:18:12.057 [main] INFO  org.example.InfoReporter - Loading Wait...
+02:18:24.819 [main] INFO  org.example.InfoReporter - Test: fillProgramFields - [FAIL]
+02:18:25.007 [main] INFO  org.example.InfoReporter - Snapshot saved in: fillProgramFields/2023-10-17_02-18-25.png
+02:20:52.778 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+02:20:52.783 [main] INFO  org.example.InfoReporter - Browser: chrome
+02:20:52.784 [main] INFO  org.example.InfoReporter - Setting up the browser
+02:20:56.350 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+02:20:56.379 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [Starting...]
+02:20:56.385 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+02:21:09.451 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+02:21:09.455 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [PASSED]
+02:21:09.458 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+02:21:09.458 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+02:21:09.459 [main] INFO  org.example.InfoReporter - TEST-> Correct Access to OBI
+02:21:09.459 [main] INFO  org.example.InfoReporter - Loading Wait...
+02:21:16.320 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [PASSED]
+02:21:16.322 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+02:21:16.429 [main] INFO  org.example.InfoReporter - Loading Wait...
+02:21:17.015 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+02:21:17.017 [main] INFO  org.example.InfoReporter - TEST-> Click on Create New Agreement
+02:21:17.025 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [PASSED]
+02:21:17.026 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [Starting...]
+02:21:17.115 [main] INFO  org.example.InfoReporter - TEST-> End To End - System Call - CustomerByMADCode
+02:21:17.320 [main] INFO  org.example.InfoReporter - Loading Wait...
+02:21:19.022 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [PASSED]
+02:21:19.023 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+02:21:19.023 [main] INFO  org.example.InfoReporter - TEST-> Complete Forms
+02:21:19.435 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [PASSED]
+02:21:19.436 [main] INFO  org.example.InfoReporter - Test: pressCreateButton - [Starting...]
+02:21:19.436 [main] INFO  org.example.InfoReporter - TEST-> Creating Agreement
+02:21:21.150 [main] INFO  org.example.InfoReporter - Test: pressCreateButton - [PASSED]
+02:21:21.151 [main] INFO  org.example.InfoReporter - Test: accessToProgramCreation - [Starting...]
+02:21:21.152 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+02:21:23.311 [main] INFO  org.example.InfoReporter - Test: accessToProgramCreation - [PASSED]
+02:21:23.312 [main] INFO  org.example.InfoReporter - Test: fillProgramFields - [Starting...]
+02:21:23.312 [main] INFO  org.example.InfoReporter - Loading Wait...
+02:21:25.663 [main] INFO  org.example.InfoReporter - Test: fillProgramFields - [FAIL]
+02:21:25.909 [main] INFO  org.example.InfoReporter - Snapshot saved in: fillProgramFields/2023-10-17_02-21-25.png
+02:23:58.888 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+02:23:58.894 [main] INFO  org.example.InfoReporter - Browser: chrome
+02:23:58.896 [main] INFO  org.example.InfoReporter - Setting up the browser
+02:24:02.556 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+02:24:02.592 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [Starting...]
+02:24:02.597 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+02:24:24.427 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [FAIL]
+02:24:24.826 [main] INFO  org.example.InfoReporter - Snapshot saved in: loginToApplication/2023-10-17_02-24-24.png
+02:24:24.835 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+02:24:24.837 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+02:24:24.838 [main] INFO  org.example.InfoReporter - TEST-> Correct Access to OBI
+02:24:24.838 [main] INFO  org.example.InfoReporter - Loading Wait...
+02:24:45.220 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+02:24:45.229 [main] INFO  org.example.InfoReporter - Browser: chrome
+02:24:45.233 [main] INFO  org.example.InfoReporter - Setting up the browser
+02:24:49.752 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+02:24:49.789 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [Starting...]
+02:24:49.796 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+02:25:23.904 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+02:25:23.906 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [PASSED]
+02:25:23.911 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+02:25:23.911 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+02:25:23.911 [main] INFO  org.example.InfoReporter - TEST-> Correct Access to OBI
+02:25:23.911 [main] INFO  org.example.InfoReporter - Loading Wait...
+02:25:31.214 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [PASSED]
+02:25:31.217 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+02:25:31.388 [main] INFO  org.example.InfoReporter - Loading Wait...
+02:25:32.685 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+02:25:32.689 [main] INFO  org.example.InfoReporter - TEST-> Click on Create New Agreement
+02:25:32.698 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [PASSED]
+02:25:32.701 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [Starting...]
+02:25:32.859 [main] INFO  org.example.InfoReporter - TEST-> End To End - System Call - CustomerByMADCode
+02:25:32.987 [main] INFO  org.example.InfoReporter - Loading Wait...
+02:25:34.170 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [PASSED]
+02:25:34.173 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+02:25:34.173 [main] INFO  org.example.InfoReporter - TEST-> Complete Forms
+02:25:34.869 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [PASSED]
+02:25:34.871 [main] INFO  org.example.InfoReporter - Test: pressCreateButton - [Starting...]
+02:25:34.872 [main] INFO  org.example.InfoReporter - TEST-> Creating Agreement
+02:25:36.656 [main] INFO  org.example.InfoReporter - Test: pressCreateButton - [PASSED]
+02:25:36.657 [main] INFO  org.example.InfoReporter - Test: accessToProgramCreation - [Starting...]
+02:25:36.660 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+02:25:40.408 [main] INFO  org.example.InfoReporter - Test: accessToProgramCreation - [PASSED]
+02:25:40.411 [main] INFO  org.example.InfoReporter - Test: fillProgramFields - [Starting...]
+02:25:40.411 [main] INFO  org.example.InfoReporter - Loading Wait...
+02:25:44.706 [main] INFO  org.example.InfoReporter - Test: fillProgramFields - [FAIL]
+02:25:45.010 [main] INFO  org.example.InfoReporter - Snapshot saved in: fillProgramFields/2023-10-17_02-25-44.png
+02:27:45.795 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+02:27:45.805 [main] INFO  org.example.InfoReporter - Browser: chrome
+02:27:45.807 [main] INFO  org.example.InfoReporter - Setting up the browser
+02:27:50.227 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+02:27:50.261 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [Starting...]
+02:27:50.266 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+02:28:15.545 [main] INFO  org.example.InfoReporter - ### Reading Environment Properties File ###
+02:28:15.559 [main] INFO  org.example.InfoReporter - Browser: chrome
+02:28:15.564 [main] INFO  org.example.InfoReporter - Setting up the browser
+02:28:21.587 [main] INFO  org.example.InfoReporter - Starting MainTask - HomePage
+02:28:21.638 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [Starting...]
+02:28:21.646 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+02:28:39.069 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+02:28:39.071 [main] INFO  org.example.InfoReporter - Test: loginToApplication - [PASSED]
+02:28:39.075 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [Starting...]
+02:28:39.075 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+02:28:39.075 [main] INFO  org.example.InfoReporter - TEST-> Correct Access to OBI
+02:28:39.076 [main] INFO  org.example.InfoReporter - Loading Wait...
+02:28:46.737 [main] INFO  org.example.InfoReporter - Test: accessToAgreementListTest - [PASSED]
+02:28:46.740 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [Starting...]
+02:28:46.855 [main] INFO  org.example.InfoReporter - Loading Wait...
+02:28:48.016 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+02:28:48.018 [main] INFO  org.example.InfoReporter - TEST-> Click on Create New Agreement
+02:28:48.024 [main] INFO  org.example.InfoReporter - Test: changeToCreateAgreementTest - [PASSED]
+02:28:48.026 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [Starting...]
+02:28:48.124 [main] INFO  org.example.InfoReporter - TEST-> End To End - System Call - CustomerByMADCode
+02:28:48.189 [main] INFO  org.example.InfoReporter - Loading Wait...
+02:28:49.829 [main] INFO  org.example.InfoReporter - Test: fillCustomerMadCodeTest - [PASSED]
+02:28:49.830 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [Starting...]
+02:28:49.830 [main] INFO  org.example.InfoReporter - TEST-> Complete Forms
+02:28:50.215 [main] INFO  org.example.InfoReporter - Test: fillAllFields - [PASSED]
+02:28:50.216 [main] INFO  org.example.InfoReporter - Test: pressCreateButton - [Starting...]
+02:28:50.217 [main] INFO  org.example.InfoReporter - TEST-> Creating Agreement
+02:28:51.928 [main] INFO  org.example.InfoReporter - Test: pressCreateButton - [PASSED]
+02:28:51.929 [main] INFO  org.example.InfoReporter - Test: accessToProgramCreation - [Starting...]
+02:28:51.930 [main] INFO  org.example.InfoReporter - +++Setting Up Factory+++
+02:28:54.253 [main] INFO  org.example.InfoReporter - Test: accessToProgramCreation - [PASSED]
+02:28:54.255 [main] INFO  org.example.InfoReporter - Test: fillProgramFields - [Starting...]
+02:28:54.255 [main] INFO  org.example.InfoReporter - Loading Wait...
+02:28:56.238 [main] INFO  org.example.InfoReporter - Test: fillProgramFields - [FAIL]
+02:28:56.654 [main] INFO  org.example.InfoReporter - Snapshot saved in: fillProgramFields/2023-10-17_02-28-56.png

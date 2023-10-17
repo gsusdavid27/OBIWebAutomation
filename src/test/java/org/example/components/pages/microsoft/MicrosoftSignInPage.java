@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 /**
  * This page is for Single Sign-On (SSO) login.
  */
-public class MicrosoftSSOPage extends BasePage {
+public class MicrosoftSignInPage extends BasePage {
 
     @FindBy(css = "input[type=\"email\"][name=\"loginfmt\"]")
     private WebElement userInput;
@@ -23,7 +23,7 @@ public class MicrosoftSSOPage extends BasePage {
     @FindBy(css = "input[value='No']")
     private WebElement denyStay;
 
-    public MicrosoftSSOPage(String url) {
+    public MicrosoftSignInPage(String url) {
         super.driver.get(url);
     }
 

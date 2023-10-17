@@ -42,7 +42,7 @@ public abstract class BasePage extends InfoReporter {
      *
      * @param element The WebElement to wait for.
      */
-    public void elementLoad(WebElement element) {
+    public void loadingGifWait(WebElement element) {
         logInfo("Loading Wait...");
         getWait().until(ExpectedConditions.visibilityOf(element));
         getWait().until(ExpectedConditions.invisibilityOf(element));

@@ -3,6 +3,7 @@ package org.example.components;
 import org.example.InfoReporter;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 /**
@@ -22,10 +23,13 @@ public class MyDriver extends InfoReporter {
         try {
             switch (browser.toLowerCase()) {
                 case "firefox":
-                    this.driver = new FirefoxDriver();
+                    this.driver = new FirefoxDriver();//hay que modificar funcionamiento
                     break;
                 case "chrome":
                     this.driver = new ChromeDriver();
+                    break;
+                case "edge":
+                    this.driver = new EdgeDriver();//hay que modificar funcionamiento
                     break;
                 default:
                     logWarning("Stopped -> Invalid browser: " + browser);

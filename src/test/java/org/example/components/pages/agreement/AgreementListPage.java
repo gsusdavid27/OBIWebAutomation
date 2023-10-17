@@ -23,7 +23,7 @@ public class AgreementListPage extends BasePage {
      * @return The text of the page title.
      */
     public String checkTitle() {
-        elementLoad(loadingIndicator);
+        loadingGifWait(loadingIndicator);
         return pageTitle.getText();
     }
 
@@ -35,7 +35,7 @@ public class AgreementListPage extends BasePage {
     public CreateAgreementPage createNewAgreement() {
         getWait().until(ExpectedConditions.elementToBeClickable(newAgreementButton));
         newAgreementButton.click();
-        elementLoad(loadingIndicator);
+        loadingGifWait(loadingIndicator);
         return new CreateAgreementPage();
     }
 }

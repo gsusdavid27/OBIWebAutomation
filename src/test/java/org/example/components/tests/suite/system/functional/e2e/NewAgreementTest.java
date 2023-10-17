@@ -1,4 +1,4 @@
-package org.example.components.tests.suite;
+package org.example.components.tests.suite.system.functional.e2e;
 
 import org.example.components.pages.agreement.CreateAgreementPage;
 import org.example.components.pages.agreement.AgreementListPage;
@@ -9,14 +9,14 @@ import org.testng.annotations.Test;
 /**
  * FirstTest class containing a series of test cases.
  */
-public class FirstTest extends BaseTest {
+public class NewAgreementTest extends BaseTest {
 
     private AgreementListPage agreementListPage;
     private CreateAgreementPage createAgreementPage;
 
     @Test
     public void accessToAgreementListTest() {
-        agreementListPage = getAgreementListPage();
+        agreementListPage = new AgreementListPage();
         logInfo("TEST-> Correct Access to OBI");
         // Verify if the title contains "Agreement List"
         Assert.assertTrue(agreementListPage.checkTitle().contains("Agreement List"));
@@ -43,5 +43,12 @@ public class FirstTest extends BaseTest {
         logInfo("TEST-> Complete Forms");
         // Verify if all fields are successfully filled
         Assert.assertTrue(createAgreementPage.fillAllFields("01/01/2024", "6174", "6174", 364));
+    }
+
+    @Test(dependsOnMethods = "fillAllFields")
+    public void pressCreateButton() {
+        logInfo("TEST-> Creating Agreement");
+        // Verify if all fields are successfully filled
+        Assert.assertTrue(createAgreementPage.createAgreement());
     }
 }

@@ -1,13 +1,15 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="MyTestSuite">
+<suite name="System">
     <listeners>
         <listener class-name="org.example.components.tests.handler.EventListener"/>
     </listeners>
     <parameter name="browser" value="chrome" />
     <parameter name="environment" value="testing" /> <!-- Para el entorno de preprod (preprod) -->
-    <test name="NewAgreementTest">
+    <test name="NewAgreementWorkFlow">
         <classes>
-            <class name="org.example.components.tests.suite.FirstTest" />
+            <class name="org.example.components.tests.suite.smoke.MicrosoftSignInTest" />
+            <class name="org.example.components.tests.suite.system.functional.e2e.NewAgreementTest" />
+            <class name="org.example.components.tests.suite.system.functional.e2e.ProgramCreationTest" />
         </classes>
     </test>
 </suite>

@@ -3,6 +3,7 @@ package org.example.components.pages.agreement;
 import org.example.components.pages.BasePage;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -33,6 +34,15 @@ public class CreateAgreementPage extends BasePage {
 
     @FindBy(css = "input[formcontrolname=\"siteCode\"]")
     private WebElement siteCode;
+    @FindBy(css = "textarea[formcontrolname=\"agreementComment\"]")
+    private WebElement commentInput;
+
+    @FindBy(css="button.mat-flat-button")
+    private WebElement createButton;
+
+    @FindBy(css="div.xpo-Notification-message-mainMessage")
+    private WebElement successCard;
+
 
     public CreateAgreementPage() {}
 
@@ -61,7 +71,7 @@ public class CreateAgreementPage extends BasePage {
      */
     public String checkCustomerNameUpdate() {
         remittanceInput.click();
-        elementLoad(loadingIndicator);
+        loadingGifWait(loadingIndicator);
         return customerName.getText();
     }
 
@@ -82,6 +92,7 @@ public class CreateAgreementPage extends BasePage {
         }
         vendorCode.sendKeys(vendor);
         siteCode.sendKeys(site);
+        commentInput.sendKeys("This is a GSUS-TEST");
         return true;
     }
 
@@ -104,4 +115,17 @@ public class CreateAgreementPage extends BasePage {
         }
         return sdf.format(calendar.getTime());
     }
+
+    public boolean createAgreement(){
+        try{
+            getWait().until(ExpectedConditions.visibilityOf(createButton));
+            createButton.click();
+            getWait().until(ExpectedConditions.visibilityOf(successCard));
+        }catch (Exception e){
+            return false;
+        }
+        return true;
+    }
+
+
 }

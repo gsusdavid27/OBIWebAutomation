@@ -3,7 +3,7 @@ package org.example.components.tests;
 import org.example.components.MyDriver;
 import org.example.InfoReporter;
 import org.example.components.model.entity.User;
-import org.example.components.pages.microsoft.MicrosoftSSOPage;
+import org.example.components.pages.microsoft.MicrosoftSignInPage;
 import org.example.components.pages.agreement.AgreementListPage;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.*;
@@ -18,11 +18,10 @@ import java.util.Properties;
  */
 public abstract class BaseTest extends InfoReporter {
     public static final String CONFIG_PROPERTIES = "src/test/resources/config.properties";
-    private User currentUser;
-    private String url;
+    public User currentUser;
+    public String url;
     private String browser;
-    private MicrosoftSSOPage microsoftSSOPage;
-    private AgreementListPage agreementListPage;
+
 
     @BeforeTest(alwaysRun = true)
     @Parameters({"browser", "environment"})
@@ -31,7 +30,6 @@ public abstract class BaseTest extends InfoReporter {
         try {
             initializeEnvironmentProperties(environment);
             initializeDriver(browser);
-            loginToApplication();
         } catch (IOException e) {
             logError("Failed to read Environment Properties");
         }
@@ -42,9 +40,6 @@ public abstract class BaseTest extends InfoReporter {
         closeDriver();
     }
 
-    public AgreementListPage getAgreementListPage() {
-        return agreementListPage;
-    }
 
     private void initializeEnvironmentProperties(String environment) throws IOException {
         logInfo("### Reading Environment Properties File ###");
@@ -62,16 +57,10 @@ public abstract class BaseTest extends InfoReporter {
         WebDriver driver = md.getDriver();
         driver.manage().window().maximize();
         logInfo("Starting MainTask - HomePage");
-        microsoftSSOPage = new MicrosoftSSOPage(this.url);
-    }
-
-    private void loginToApplication() {
-        agreementListPage = microsoftSSOPage
-                .doSSO(currentUser.getUsername(),
-                        currentUser.getPassword());
     }
 
     private void closeDriver() {
         MyDriver.getInstance("").closeDriver();
     }
+
 }
