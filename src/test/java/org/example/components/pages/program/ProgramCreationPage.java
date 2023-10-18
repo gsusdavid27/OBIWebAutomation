@@ -1,7 +1,6 @@
 package org.example.components.pages.program;
 
 import org.example.components.pages.BasePage;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBy;
@@ -49,76 +48,125 @@ public class ProgramCreationPage extends BasePage {
     private WebElement rateTypeOption;
 
 
-    @FindBy(css = "#mat-input-26")
+    @FindBy(css = "mat-form-field.no-margin input[formcontrolname=\"interStateAmcAmount\"]")
     private WebElement interStateInput;
-    @FindBy(css = "#mat-input-27")
+    @FindBy(css = "mat-form-field.no-margin input[formcontrolname=\"intraStateAmcAmount\"]")
     private WebElement intraStateInput;
-    @FindBy(css = "#mat-input-28")
+    @FindBy(css = "mat-form-field.no-margin input[formcontrolname=\"canadianAmcAmount\"]")
     private WebElement internationalInput;
 
-    @FindBy(css = "input#mat-checkbox-8-input")
+    @FindBy(css = "mat-checkbox[formcontrolname=\"outboundPrepaidCd\"]")
     private WebElement otbdCheckBox;
 
-    @FindBy(css = "input#mat-checkbox-11-input")
+    @FindBy(css = "mat-checkbox[formcontrolname=\"inboundCollectCd\"]")
     private WebElement inbdCheckBox;
 
-    @FindBy(css = "#mat-input-20")
+    @FindBy(css = "#mat-input-25")
     private WebElement maxDiscInput;
 
-    @FindBy(css = "#mat-input-23")
+    @FindBy(css = "#mat-input-27")
     private WebElement maxDaysInput;
+
+    @FindBy(css = "button.create-button")
+    private WebElement createButton;
 
 
     public String checkTitle(){
+        loadingGifWait(loadingIndicator);
+        logInfo("Waiting for load...");
         getWait().until(ExpectedConditions.visibilityOf(pageTitle));
         return pageTitle.getText();
     }
 
 
-    public boolean fillAll(String type,
-                           Double rate,
-                           String payOn,
-                           String rateType,
-                           Double interState,
-                           Double intraState,
-                           Double international,
-                           Double maxDisc,
-                           Double maxDays) {
-        loadingGifWait(loadingIndicator);
-
+    public boolean firstFilling(String type,Double rate) {
+        logInfo("Step-Select Program Type");
         selectProgramType.click();
-        for(int i=0; i<selectType.size(); i++){
-            if(selectType.get(i).getText().contains(type)){
-                selectType.get(i).click();
-            }
-        }
-        getWait().until(ExpectedConditions.elementToBeClickable(renewProgramCheckBox));
-        renewProgramCheckBox.click();
-        commonRateInput.sendKeys(rate.toString());
-        interStateCheckBox.click();
-        intraStateCheckBox.click();
-        internationalCheckBox.click();
-
-        selectPayOn.click();
         for (WebElement element : selectType) {
-            getWait().until(ExpectedConditions.visibilityOf(element));
-            if (element.getText().contains(payOn)) {
+            if (element.getText().contains(type)) {
                 element.click();
                 break; // Termina el bucle una vez que se encuentra el elemento deseado
             }
         }
+        logInfo("Step-Click Renew ChaeckBox");
+        getWait().until(ExpectedConditions.elementToBeClickable(renewProgramCheckBox));
+        renewProgramCheckBox.click();
+
+        logInfo("Step-Fill common Rate");
+        commonRateInput.click();
+        commonRateInput.clear();
+        commonRateInput.sendKeys(rate.toString());
+
+        return true;
+    }
+
+     public boolean secondFilling(
+                           String payOn,
+                           String rateType,
+                           Integer interState,
+                           Integer intraState,
+                           Integer international) {
+        logInfo("Step-2/////");
+
+        logInfo("Step-Selecting States");
+        interStateCheckBox.click();
+        intraStateCheckBox.click();
+        internationalCheckBox.click();
+        
+        logInfo("Step-Select PayOn");        
+        selectPayOn.click();
+        for (WebElement element : selectType) {
+            getWait().until(ExpectedConditions.visibilityOf(element));
+            if (element.getText().contains(payOn)) {
+                getWait().until(ExpectedConditions.elementToBeClickable(element));
+                element.click();
+                break; // Termina el bucle una vez que se encuentra el elemento deseado
+            }
+        }
+        
+        logInfo("Step-Filling States");
+
+        interStateInput.click();
+        interStateInput.clear();
+        interStateInput.sendKeys(interState.toString());
+
+        intraStateInput.click();
+        intraStateInput.clear();
+        intraStateInput.sendKeys(intraState.toString());
+
+        internationalInput.click();
+        internationalInput.clear();
+        internationalInput.sendKeys(international.toString());
+
+        logInfo("Step-Select Rate Type");
         selectRateType.click();
         getWait().until(ExpectedConditions.elementToBeClickable(rateTypeOption));
         rateTypeOption.click();
 
-        interStateInput.sendKeys(interState.toString());
-        intraStateInput.sendKeys(intraState.toString());
-        internationalInput.sendKeys(international.toString());
-        otbdCheckBox.click();
-        inbdCheckBox.click();
-        maxDiscInput.sendKeys(maxDisc.toString());
-        maxDaysInput.sendKeys(maxDays.toString());
+
+        logInfo("Steps-2-Done");
 
         return true;
     }
+     public boolean thirdFilling() {
+        logInfo("Steps-3....");
+        getWait().until(ExpectedConditions.elementToBeClickable(otbdCheckBox));
+        otbdCheckBox.click();
+        inbdCheckBox.click();
+
+        return true;
+    }
+    public boolean fourthFilling(Double maxDisc, Integer maxDays) {
+        //falta un checkBox
+        logInfo("Steps-3....");
+        maxDiscInput.sendKeys(maxDisc.toString());
+        maxDaysInput.sendKeys(maxDays.toString());
+
+        getWait().until(ExpectedConditions.elementToBeClickable(createButton));
+        createButton.click();
+        return true;
+    }
 }
+/**
+ * Note: Just a program per Type.
+ */

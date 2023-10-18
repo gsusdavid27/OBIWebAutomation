@@ -60,7 +60,7 @@ public abstract class BaseTest extends InfoReporter {
     }
 
     private void closeDriver() {
-        MyDriver.getInstance("").closeDriver();
+        //MyDriver.getInstance("").closeDriver();
     }
 
 }

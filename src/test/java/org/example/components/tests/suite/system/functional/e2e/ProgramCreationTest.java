@@ -16,9 +16,28 @@ public class ProgramCreationTest extends BaseTest {
     }
 
     @Test(dependsOnMethods = "accessToProgramCreation")
-    public void fillProgramFields(){
-        Assert.assertTrue(programCreationPage.fillAll("EOM",
-                1.5,"Gross"," Percentage ",102d,102d,149d,74.1,36d));
+    public void fillFirstLayerFields(){
+        logInfo("Filling First Layer");
+        Assert.assertTrue(programCreationPage.firstFilling("EOM",
+                1.5));
+    }
+
+    @Test(dependsOnMethods = "fillFirstLayerFields")
+    public void fillSecondLayerFields(){
+        logInfo("Filling Second Layer");
+        Assert.assertTrue(programCreationPage.secondFilling("Gross"," Percentage ",102,102,149));
+    }
+
+    @Test(dependsOnMethods = "fillSecondLayerFields")
+    public void fillThirdLayerFields(){
+        logInfo("Filling Third Layer");
+        Assert.assertTrue(programCreationPage.thirdFilling());
+    }
+
+    @Test(dependsOnMethods = "fillThirdLayerFields")
+    public void fillFourthLayerFields(){
+        logInfo("Filling Fourth Layer");
+        Assert.assertTrue(programCreationPage.fourthFilling(74.1,36));
     }
 
 

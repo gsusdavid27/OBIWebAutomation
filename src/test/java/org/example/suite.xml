@@ -10,6 +10,7 @@
             <class name="org.example.components.tests.suite.smoke.MicrosoftSignInTest" />
             <class name="org.example.components.tests.suite.system.functional.e2e.NewAgreementTest" />
             <class name="org.example.components.tests.suite.system.functional.e2e.ProgramCreationTest" />
+            <class name="org.example.components.tests.suite.system.functional.e2e.LocationHierarchyTest" />
         </classes>
     </test>
 </suite>
